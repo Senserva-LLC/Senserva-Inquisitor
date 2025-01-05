@@ -1,5 +1,7 @@
 # runtimes
-Runtimes for Senserva - early beta please contact us for assistance and information.    These are runtimes only, source available upon request and approval by Senserva.
+Runtimes for Senserva - early beta please contact us for assistance and information.    Senserva provides public contains with signifigant support, and then we add more for partners and customers who work more closely with us. All for free. Source could available to select partners and customers, please check with us.
+
+These are runtimes only, source available upon request and approval by Senserva.
 
 These run times do not require and services, cloud or otherwise.  The run local and the data stays local.  Web page UI runs off local data, the database is a no server SQLite database. 
 
