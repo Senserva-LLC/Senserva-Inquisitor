@@ -3,7 +3,6 @@ Runtimes for Senserva - early beta please contact us for assistance and informat
 
 # First
 
-Install the SQLite for your environment if you are not using our containers: https://www.sqlite.org/download.html
 
 These are runtimes only, source available upon request and approval by Senserva.
 
