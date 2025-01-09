@@ -36,11 +36,15 @@ EXCLUSIONS OF LIABILITY AND DISCLAIMERS SPECIFIED IN THIS AGREEMENT WILL SURVIVE
 IF FOUND TO HAVE FAILED OF THEIR ESSENTIAL PURPOSE. THE LIMITATIONS SET FORTH IN SECTION SHALL APPLY 
 EVEN IF THE CLIENT'S REMEDIES UNDER THIS AGREEMENT FAIL OF THEIR ESSENTIAL PURPOSE.
 
-No souce code rights are included in this license, only run times are included.  No one may disassemble
-or reverse engineer these binaries.  Senserva will agressivsly defend this right, please contact us for the source 
-code, it is availble upon Senserva approval.
+No source code rights are included in this license, only run times are included. Licensee shall not, and shall not
+permit any third party to: Copy, modify, translate, adapt, or create derivative works of the Software
+Rent, lease, loan, resell, sublicense, distribute or otherwise transfer the Software Reverse engineer, decompile, disassemble, 
+or attempt to derive source code from the Software Remove, alter, or obscure any proprietary notices on the Software Use the 
+Software in any manner that exceeds the scope of use permitted in this License
 
-No one other than Senserva may distribute this software.
+Any attempt to do so automatically terminates this License and may subject violator to civil and criminal penalties.
+
+Please contact us for the source code, it is available upon Senserva approval.
 
 Senserva retains all right, title and interest (including without limitation all intellectual property rights)
 in and to Work Product and Other IP. Any user of Senserva technology obtains no ownership, right, title or 
