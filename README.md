@@ -1,5 +1,9 @@
-# runtimes
+# Runtimes
 Runtimes for Senserva - early beta please contact us for assistance and information.    Senserva provides public contains with signifigant support, and then we add more for partners and customers who work more closely with us. All for free. Source could available to select partners and customers, please check with us.
+
+# Usage Rights
+Please review the SenservaLicnese file before using this software. And note These run times only for END USER USE ONLY. They cannot be used within other products or be embedded in paid services without Senserva's express written permission. Senserva has an established OEM program with a scalable pricing model that works for companies of all sizes.  Please contact us for use of these,and all our works, as part of your products or to be embedded in your services. Senserva reserves the rights to invoice,  
+and be paid for all improper uses of our technlogies. Also note these run times are PROVIDED "AS IS" AND WITH ALL FAULTS AND DEFECTS WITHOUT WARRANTY OF ANY KIND.
 
 Please note these run times are not yet ready for use, we are testing out the builds etc.
 
