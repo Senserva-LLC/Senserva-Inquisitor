@@ -1,6 +1,8 @@
 # runtimes
 Runtimes for Senserva - early beta please contact us for assistance and information.    Senserva provides public contains with signifigant support, and then we add more for partners and customers who work more closely with us. All for free. Source could available to select partners and customers, please check with us.
 
+Please note these run times are not yet ready for use, we are testing out the builds etc.
+
 # First
 
 
