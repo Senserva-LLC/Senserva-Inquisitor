@@ -4,18 +4,43 @@ Copyright (c) 2025 Senserva, LLC
 
 Permission is hereby granted, free of charge, to any person legally obtaining a copy
 of this software and associated documentation files (the "Software"), to use
-the Software without restriction in any legal fashion. The above copyright notice and 
-this permission notice shall be included in all copies used.  
+the Software without restriction in any legal fashion and subject to US export control laws. 
+The above copyright notice and this permission notice shall be included in all copies used.  
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.  
+EXCEPT AS EXPRESSLY SET FORTH ABOVE, THE SERVICES ARE PROVIDED "AS IS" AND WITH ALL FAULTS AND DEFECTS 
+WITHOUT WARRANTY OF ANY KIND. TO THE MAXIMUM EXTENT PERMITTED UNDER APPLICABLE LAW, SENSERVA, ON ITS 
+OWN BEHALF AND ON BEHALF OF ITS AFFILIATES AND ITS AND THEIR RESPECTIVE LICENSORS AND SERVICE PROVIDERS, 
+EXPRESSLY DISCLAIMS ALL WARRANTIES, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, WITH RESPECT 
+TO THE SERVICES, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, 
+TITLE, AND NON-INFRINGEMENT, AND WARRANTIES THAT MAY ARISE OUT OF COURSE OF DEALING, COURSE OF PERFORMANCE, 
+USAGE, OR TRADE PRACTICE. WITHOUT LIMITATION TO THE FOREGOING, SENSERVA PROVIDES NO WARRANTY OR 
+UNDERTAKING, AND MAKES NO REPRESENTATION OF ANY KIND THAT THE LICENSED SERVICES WILL MEET THE CLIENT'S 
+REQUIREMENTS, ACHIEVE ANY INTENDED RESULTS, BE COMPATIBLE, OR WORK WITH ANY OTHER SOFTWARE,
+APPLICATIONS, SYSTEMS, OR SERVICES, OPERATE WITHOUT INTERRUPTION, MEET ANY PERFORMANCE OR RELIABILITY 
+STANDARDS OR BE ERROR FREE, OR THAT ANY ERRORS OR DEFECTS CAN OR WILL BE CORRECTED.
+
+IN NO EVENT WILL SENSERVA HAVE LIABILITY FOR ANY DIRECT, CONSEQUENTIAL, 
+SPECIAL, LOST PROFIT, PUNITIVE OR RELIANCE DAMAGES, OR INDIRECT LOSS FOR DAMAGES, REGARDLESS OF 
+WHETHER SUCH DAMAGES ARE BASED ON CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY OR ANY 
+OTHER THEORY OR FORM OF ACTION OR WHETHER THE SENSERVA PARTIES OR CLIENT KNEW OR SHOULD HAVE KNOWN 
+OF THE LIKELIHOOD OF SUCH DAMAGES IN ANY CIRCUMSTANCES. THE PARTIES AGREE THAT THE LIMITATION AND 
+EXCLUSIONS OF LIABILITY AND DISCLAIMERS SPECIFIED IN THIS AGREEMENT WILL SURVIVE AND APPLY EVEN 
+IF FOUND TO HAVE FAILED OF THEIR ESSENTIAL PURPOSE. THE LIMITATIONS SET FORTH IN SECTION SHALL APPLY 
+EVEN IF THE CLIENT'S REMEDIES UNDER THIS AGREEMENT FAIL OF THEIR ESSENTIAL PURPOSE.
 
 No souce code rights are included in this license, only run times are included.  No one may disassemble
-or reverse engineer these binaries.  Senserva will agressivsly defend this right.
+or reverse engineer these binaries.  Senserva will agressivsly defend this right, please contact us for the source 
+code, it is availble upon Senserva approval.
 
 No one other than Senserva may distribute this software.
+
+Senserva retains all right, title and interest (including without limitation all intellectual property rights)
+in and to Work Product and Other IP. Any user of Senserva technology obtains no ownership, right, title or 
+license of or to Work Product or Other IP, except for the express licenses set forth herein. 
+All Work Product and Other IP are included within Senserva’s Confidential Information and not Any user of Senserva’s technology.
+
+The validity, interpretation, construction, performance, enforcement, and remedies of or relating to this Agreement, and the rights 
+and obligations of the Parties to this Agreement, shall be governed and construed in all respects by the substantive laws of the 
+State of Minnesota (without regard to the conflict of laws rules or statutes of Minnesota or any other jurisdiction that might result in the 
+application of other law).
+
