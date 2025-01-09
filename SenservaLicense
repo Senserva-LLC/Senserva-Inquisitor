@@ -2,9 +2,16 @@ The Senserva Runtime Only License.
 
 Copyright (c) 2025 Senserva, LLC
 
+These run times only for end user use. They cannot be used within other products 
+or be embedded in paid services. Senserva has an established OEM program with a scalable pricing 
+model that works for companies of all sizes.  Please contact us for use of
+these, and all our works, as part of your products or to be embedded in your services.
+
 Permission is hereby granted, free of charge, to any person legally obtaining a copy
 of these run times and associated documentation files (the "Software"), to use
-the  run times without restriction in any legal fashion and subject to US export control laws. 
+these run times without restriction in any legal fashion, subject to the terms in this agreement including 
+the embedded restrictions above, and subject to US export control laws. 
+
 The above copyright notice and this permission notice shall be included in all copies used.  
 
 EXCEPT AS EXPRESSLY SET FORTH ABOVE, THE PRODUCTS AND SERVICES ARE PROVIDED "AS IS" AND WITH ALL FAULTS AND DEFECTS 
@@ -43,3 +50,4 @@ The validity, interpretation, construction, performance, enforcement, and remedi
 and obligations of the Parties to this Agreement, shall be governed and construed in all respects by the substantive laws of the 
 State of Minnesota (without regard to the conflict of laws rules or statutes of Minnesota or any other jurisdiction that might result in the 
 application of other law).
+
