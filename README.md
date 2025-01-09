@@ -5,6 +5,7 @@ Please note these run times are not yet ready for use, we are testing out the bu
 
 # First
 
+Please do not use any related zip files on this repository.  Just grab the inq.exe, its signed so double check that first.
 
 These are runtimes only, source available upon request and approval by Senserva.
 
