@@ -5,7 +5,7 @@ Runtimes for Senserva - early beta please contact us for assistance and informat
 
 Senserva supports many types of login techniques, but the easiest way to get start is with the Azure Cli. [https://github.com/MicrosoftDocs/azure-docs-cli/blob/main/docs-ref-conceptual/install-azure-cli-windows.md](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) or https://learn.microsoft.com/en-us/dotnet/azure/install-azure-cli 
 
-# How to uninstall Azure PowerShell modules (its not supported)
+# How to Uninstall Azure PowerShell Modules (it's not supported)
 
 https://learn.microsoft.com/en-us/powershell/azure/uninstall-az-ps?view=azps-13.0.0
 
