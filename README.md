@@ -16,6 +16,12 @@ Powershell CommandLets
 
 ## FAQ
 
+* Hobby 1
+  * Nested Hobby 1
+    * Sub-nested Hobby 1
+* Hobby 2
+* Hobby 3
+
 # Desired Collaboration
 
 Please post issues.
@@ -64,3 +70,13 @@ Usage of SenservaInquisitor.  Run SenservaInquisitor -help after downloading.
 ![image](https://github.com/user-attachments/assets/6d87b0e4-5924-4e4d-8ce5-d715c6934fc9)
 
 
+# About Senserva
+
+The Senserva team is built with a team Microsoft Security Industry leaders including former Microsoft employees. Senserva believes an essential component of computer security is the efficient application of security tools and automated processes.
+
+We provide straightforward, continuous, and actionable insights into what needs the most immediate attention. Creating guidance on the proper use of Microsoft and other security products for all levels of security skills and driving the management of those insights.
+
+Senserva, an ISV member of the exclusive Microsoft Intelligent Security Association (MISA) and 2024 ISV of the year finalist, was founded by industry leader and Microsoft Security expert, Mark Shavlik, along with TJ Dolan.
+
+ [More About Senserva](Senserva https://senserva.com/about)
+ 
