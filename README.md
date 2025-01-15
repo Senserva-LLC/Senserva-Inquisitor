@@ -6,7 +6,7 @@ This is Beta 1 of the Senserva Inq.Uisitor (Inquisitor or Inq.exe), a free produ
 
 Inq.Uisitor, or inq.exe, runs out of the box, sets itself up automatically and creates a rich set of interactive web pages.  It also has a broad set of parameters and CSV files to neable customizatoins. Inq.exe uses a local SQL database (server less SQLIte) to store data.  This database can be used to easily create custom reports.
 
-Please see our the [Inq.exe Wiki](https://github.com/Senserva-LLC/Senserva-Runtime/wiki) for Detailed Screen Shots and Data Examples.
+Please see our the [Inq.exe Wiki](https://github.com/Senserva-LLC/Senserva-Runtime/wiki) for more Detailed Screen Shots and Data Examples.
 
 ## Key Features
 
@@ -27,10 +27,12 @@ Inq.Uisitor runs scans on demand, with scheduling and Containers comming in a fu
 
 ```mermaid
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+    Login --> Read-Azure --> Review-Azure-State --> Write-New-Results-SQLite --> Create-Rich-Webpages;
+    Azure-Cli-Client-->Login;
+    Senserva-EntraID-Client-->Login;
+    Powershell-Cli-Client -->Login;
+    User-Customized-Strings --> Write-New-Results-SQLite;
+    Create-Rich-Webpages --> Json;
 ```
 
 ### Many Options for Logging into Azure
