@@ -6,7 +6,7 @@ This is Beta 1 of the Senserva Inq.Uisitor (Inquisitor or Inq.exe), a free produ
 
 Inq.Uisitor, or inq.exe, runs out of the box, sets itself up automatically and creates a rich set of interactive web pages.  It also has a broad set of parameters and CSV files to neable customizatoins. Inq.exe uses a local SQL database (server less SQLIte) to store data.  This database can be used to easily create custom reports.
 
-Please see our the [Inq.exe Wiki](https://github.com/Senserva-LLC/Senserva-Runtime/blob/main/wiki) for Detailed Screen Shots and Data Examples.
+Please see our the [Inq.exe Wiki](https://github.com/Senserva-LLC/Senserva-Runtime/wiki) for Detailed Screen Shots and Data Examples.
 
 ## Key Features
 
