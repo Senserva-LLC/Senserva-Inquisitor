@@ -94,7 +94,7 @@ It is easy to work with SQLite in Python and other languages. The Python SQLite3
 
 SQLite can also be used with Powershell to read Inq.Uisitor data.  [SQLite and PowerShell with SimplySql](https://www.powershellgallery.com/packages/SimplySql/2.0.2.70)
 
-# Creating Custom Reporting
+# Custom Reporting
 
 ## Senserva's Data Design
 
