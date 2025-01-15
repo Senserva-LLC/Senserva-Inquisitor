@@ -1,10 +1,9 @@
-[![Header](https://senserva.com/hs-fs/hubfs/SenservaLight.png?width=180&height=47&name=SenservaLight.png "Header")](https://www.senserva.com/)
+<img src="https://github.com/user-attachments/assets/5ce51b46-cdd7-4828-926c-9e9c3ec82460" width="200">
 
-# Senserva Inq.Uisitor (Inq.exe) Runtime Overview
+# The Senserva Inq.Uisitor (Inq.exe) Overview
 
 # Project Status
-
-Runtimes for Senserva - early beta please contact us for assistance and information.    Senserva provides public contains with signifigant support, and then we add more for partners and customers who work more closely with us. All for free. Source could available to select partners and customers, please check with us.
+Runtimes for Senserva - early beta please contact us for assistance and information. Senserva provides public contains with signifigant support, and then we add more for partners and customers who work more closely with us. All for free. Source could available to select partners and customers, please check with us.
 
 ## Known Bugs
 
@@ -76,7 +75,8 @@ Please Read our terms of use https://senserva.com/senserva-terms-of-use
 
 Usage of SenservaInquisitor.  Run SenservaInquisitor -help after downloading.
 
-![image](https://github.com/user-attachments/assets/6d87b0e4-5924-4e4d-8ce5-d715c6934fc9)
+
+
 
 
 
