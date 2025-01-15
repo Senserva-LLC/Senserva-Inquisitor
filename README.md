@@ -103,10 +103,13 @@ This is an quick overview of the main data tables used by Senserva to go give yo
 You do not need to know the database to run Inq.exe.  These notes are for people who want to create their own customizations. Our tables also contain rich set of Json data as well so is a lot of data you can use to create custom solutions.  Or you can just use our UI, it is pretty good :)
 
 ```mermaid
+
+
 ---
 title: Senserva Core Data Model
 ---
 classDiagram
+
     AuditHistory <|-- Node
     AuditHistory <|-- Edge
     AuditHistory <|-- AuditItem
@@ -122,7 +125,7 @@ classDiagram
            Ended
      }
 
-      class Node { 
+      class Node{ 
          Timestamp
          TenantId
          AuditId
