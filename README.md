@@ -14,6 +14,7 @@ Please see our the [Inq.exe Wiki](https://github.com/Senserva-LLC/Senserva-Runti
 * Just download the Signed Inq.exe and go, setup is complete automated. 
 * Each time you run an scan only changes are recorded in the database.  You can run inq.exe all you want and only new data is saved.
 * Easy to login to Azure, including Zero setup options.
+* It is easy to share data with others. Inq.exe runs in two modes, audit mode which requires an Azure Login and Reporting mode which can be run by anyone.
 * The database can be easly accessed from multiple platforms to create custom monitors and reports.
 * The User interface can export Json with dials that enable it to be broad or specific data. This data can also be used for custom monitors are reports.
 * Output text can be easily customized via auto-generated CSV files that are used to display all key text.
@@ -23,7 +24,14 @@ Please see our the [Inq.exe Wiki](https://github.com/Senserva-LLC/Senserva-Runti
 ## How it Works
 
 Inq.Uisitor runs scans on demand, with scheduling and Containers comming in a future beta.
-<insert graphic>
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
 
 ### Many Options for Logging into Azure
 
