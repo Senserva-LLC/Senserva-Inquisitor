@@ -58,7 +58,7 @@ graph LR;
     Database[(SQLite)] --> Custom-Solutions[Custom Solutions]
 ```
 
-### Many Options for Logging into Azure
+### There are Many Options for Logging into Azure
 
 Inq.exe and many options to login in to Azure.  The easiest way to go is to use the Azure CLI and inq.exe just uses your current login, you do not need to do anything if you are already using the Azure CLI, or you can easily set it up.  The Azure Powershell is also supported
 
@@ -82,13 +82,11 @@ Example, list all rights for the full product
 
 based on Senserva's but make your own. This is an advanced usage and it enables the most features
 
-## Senserva Database
+# Senserva Database
 
-The Senserva Inq.Uisitor uses a relational database to store results.
+The Senserva Inq.Uisitor uses a relational database to store results. You can 100% ignore the database if you wish, or you can dig in an create your own reporting.  The data model is basic and after a few runs of Inq.exe it will make sense to you.
 
-## Senserva Data Model
-
-## Senserva Integrations
+## Senserva Data Level Integrations
 
 Inq.exe is built with SQLite. SQLite is a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world. [More About Sqlite](https://www.sqlite.org/)
 
@@ -100,11 +98,7 @@ SQLite can also be used with Powershell to read Inq.Uisitor data.  [SQLite and P
 
 ## Senserva's Data Design
 
-This is an quick overview of the main data tables used by Senserva to go give you an idea of the extent of our data.  Use a product like [DB Browser for SQLite](https://sqlitebrowser.org/) to full review the data format and content.  You do not need to know the database to run Inq.exe.  These notes are for people who want to create their own customizations.
-
-Our date does contain a history as well.
-
-Our tables also contain rich set of Json data as well so is a lot of data you can use to create custom solutions.  Or you can just use our UI, it is pretty good :)
+This is an quick overview of the main data tables used by Senserva to go give you an idea of the extent of our data.  Use a product like [DB Browser for SQLite](https://sqlitebrowser.org/) to full review the data format and content.  You do not need to know the database to run Inq.exe.  These notes are for people who want to create their own customizations. Our tables also contain rich set of Json data as well so is a lot of data you can use to create custom solutions.  Or you can just use our UI, it is pretty good :)
 
 ```mermaid
 ---
@@ -124,29 +118,41 @@ classDiagram
     note "So a Node for a User can be connected to a Node for a Group as an example."
     note "Count tables track key data to see what trends here are"
 
-    class Node{
-                        Timestamp TEXT NOT NULL,
-                        TenantId TEXT NOT NULL,
-                        AuditId INTEGER NOT NULL,
-                        SystemId TEXT NOT NULL,
-                        Name TEXT NULL,
-                        DataDeleted TEXT NULL,
-                        DataCreated TEXT NULL,
-                        DataUpdated TEXT NULL,
-                        Json TEXT NULL,
-                    }
+    class Node { 
+         Timestamp
+         TenantId
+         AuditId
+         SystemId
+         Name
+         DataDeleted
+         DataCreated
+         DataUpdated
+         Json
+    }
+
+   class EdgesTable
+         Timestamp
+         AuditId
+         DeletedTime
+         TenantId
+         SourceId
+         SourceName
+         TargetId
+         TargetName
+         TargetSubId
+   }
 
     class ConditionalAccessCounts{
-         Timestamp TEXT NOT NULL,
-         TenantId TEXT NOT NULL,
-         AuditId INTEGER NOT NULL,
-         ValueType TEXT NOT NULL,
-         PolicyId TEXT NOT NULL,
-         PolicyName TEXT NOT NULL,
-         UserId TEXT NOT NULL,
-         UserName TEXT NOT NULL,
-         Key  TEXT NOT NULL,
-         Count INTEGER NULL,
+         Timestamp
+         TenantId
+         AuditId
+         ValueType
+         PolicyId
+         PolicyName
+         UserId
+         UserName
+         Key
+         Count
   }
     class Fish{
         -int sizeInFeet
