@@ -32,15 +32,16 @@ title: Senserva in Action
 
 
 graph LR;
-    Login --> Read-Azure --> Review-Azure-State --> Database[(SQLite)] --> Create-Rich-Webpages;
+    Login --> read-azure[Read Azure] --> Review-Azure-State[Review Azure State] --> Database[(SQLite)] --> Create-Webpages[Create Webpages];
     Azure-Cli-Client-->Login;
     Senserva-EntraID-Client-->Login;
+    Customer-EntraID-Client-->Login;
     Powershell-Cli-Client -->Login;
-    User-Customized-Strings --> CSV-Importer;
+    User-Customized-Strings[Customized Strings] --> CSV-Importer[CSV Importer];
     CSV-Importer --> Database[(SQLite)]
-    Create-Rich-Webpages --> Json;
+    Create-Webpages --> Json;
     Json --> Custom-Solutions;
-    Database[(SQLite)] --> Custom-Solutions
+    Database[(SQLite)] --> Custom-Solutions[Custom Solutions]
 ```
 
 ### Many Options for Logging into Azure
