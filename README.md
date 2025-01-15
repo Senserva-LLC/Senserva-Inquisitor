@@ -9,6 +9,7 @@ Inq.Uisitor, or inq.exe, runs out of the box, sets itself up automatically and c
 ## Key Features
 
 * There are no servers used. No web servers, no database severs. None.  Yet there is a full releational database thanks to SQLite and rich web pages based on html files local to the inq.exe directly to review results. This is done by design, to keep the data local and to keep it simple on the outside but very advance do the inside.
+* Just download the Signed Inq.exe and go, setup is complete automated. 
 * Each time you run an scan only changes are recorded in the database.  You can run inq.exe all you want and only new data is saved.
 * Easy to login to Azure, including Zero setup options.
 * Output text can be easily customized via auto-generated CSV files that are used to display all key text.
