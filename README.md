@@ -115,7 +115,7 @@ classDiagram
     AuditHistory <|-- AuditAttributes
     Node <|-- Edge
 
-     class AuditHistory {
+     class AuditHistory["Audit History"] {
            TenantId
            AuditId
            StartedTime
@@ -134,7 +134,7 @@ classDiagram
          Json
     }
 
-   class Edge {
+   class Edge { 
          Timestamp
          TenantId
          AuditId
@@ -146,7 +146,7 @@ classDiagram
          TargetSubId
    }
 
-  class AuditItem{
+  class AuditItem["Audit Item"] {
   TenantId
   AuditId
   TenantName
@@ -165,7 +165,7 @@ classDiagram
   Json
  }
 
-    class ConditionalAccessCounts{
+    class ConditionalAccessCounts["Conditional Access Counts"]{
          Timestamp
          TenantId
          AuditId
@@ -178,7 +178,7 @@ classDiagram
          Count
     }
 
-class CountTrackers {
+class CountTrackers["Count Trackers"]{
                         Timestamp 
                         TenantId
                         AuditId
@@ -189,7 +189,7 @@ class CountTrackers {
                         Count
                    }
 
-  class AuditAttributes {
+  class AuditAttributes["Audit Attributes"] {
                         Timestamp
                         Name
                         Version
