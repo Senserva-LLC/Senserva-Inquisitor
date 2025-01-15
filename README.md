@@ -31,7 +31,7 @@ title: Senserva in Action
 ---
 
 
-graph LR;
+graph TD;
     Login --> Read-Azure --> Review-Azure-State --> Database[(SQLite)] --> Create-Rich-Webpages;
     Azure-Cli-Client-->Login;
     Senserva-EntraID-Client-->Login;
