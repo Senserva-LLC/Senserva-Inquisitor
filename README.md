@@ -121,9 +121,9 @@ classDiagram
 
    class EdgesTable {
          Timestamp
+         TenantId
          AuditId
          DeletedTime
-         TenantId
          SourceId
          SourceName
          TargetId
@@ -133,8 +133,8 @@ classDiagram
 
   class AuditItem{
   TenantId
-  TenantName
   AuditId
+  TenantName
   AuditGroup
   AuditType
   ResultDetails
@@ -161,8 +161,35 @@ classDiagram
          UserName
          Key
          Count
-  }
-   
+    }
+
+class CountTrackers {
+                        Timestamp 
+                        TenantId
+                        AuditId
+                        TenantName
+                        CountType
+                        Id
+                        Name
+                        Count
+                   }
+
+  class AuditAttributes {
+                        Timestamp
+                        Name
+                        Version
+                        Description
+                        RecommendedRisk
+                        Enabled
+                        InBeta
+                        Ranking
+                        Url
+                        Nist
+                        Mitre
+                        Other
+                        Credit
+                        }
+      
 
 ```
 ## Changing Content with the Senserva CSV file
