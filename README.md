@@ -2,11 +2,11 @@
 
 # The Senserva Inq.Uisitor (Inq.exe) Overview
 
-The Senserva Inq.Uisitor (Inquisitor) is a free product designed to make it easy to know the security state of all the Entra IDs a technical team supports.  It can be used by either IT teams or Security teams.  You can just look for top issues or you can drill deep on the the state of each Entra ID you manage.
+This is Beta 1 of the Senserva Inq.Uisitor (Inquisitor or Inq.exe), a free product designed to make it easy to know the security state of all the Entra IDs a technical team supports.  Inq.exe can be used by either IT teams or Security teams.  You can just look for top issues or you can drill deep on the the state of each Entra ID you manage.
 
 Inq.Uisitor, or inq.exe, runs out of the box, sets itself up automatically and creates a rich set of interactive web pages.  It also has a broad set of parameters and CSV files to neable customizatoins. Inq.exe uses a local SQL database (server less SQLIte) to store data.  This database can be used to easily create custom reports.
 
-Please see our Wiki for Detailed Screen Shots and Data Examples [Sites Using React](https://github.com/facebook/react/wiki/Sites-Using-React)
+Please see our the [Inq.exe Wiki](https://github.com/Senserva-LLC/Senserva-Runtime/blob/main/wiki) for Detailed Screen Shots and Data Examples.
 
 ## Key Features
 
