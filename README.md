@@ -24,7 +24,8 @@ Please see our the [Inq.exe Wiki](https://github.com/Senserva-LLC/Senserva-Runti
 * Built to be customized. The database and user interface can be easly accessed and customized from multiple platforms to create custom monitors and reports.
 * The User interface can export Json with user interface search and filter dials that enable it to be broad or specific data. 
 * Output text can be easily customized via auto-generated CSV files that are used to display all key text.
-* Full leveled logging to auto-rolling files support, makes it easy to understand what is going on inside Inq.exe
+* Full leveled logging to auto-rolling files support, makes it easy to understand what is going on inside Inq.exe.
+* Trends stored in the data. Senserva data is deduped and also contains a history.  So it does not grow too large, but at the same time you can observe changes over time.
 * Source code available
 
 # Quick Start
@@ -33,9 +34,7 @@ The best thing to do to get started is download Inq.exe with a double click and 
 
 ## Auto Install
 
- Inq.exe installs itself, just run it and the first time it will create the database and browser files it needs in the directory you are running in
-
-
+ Inq.exe installs itself, just run it and the first time it will create the database and browser files it needs in the directory you are running in.  That's it, Inq.exe will figure things on its own from there.
 
 # How it Works
 
@@ -97,26 +96,58 @@ It is easy to work with SQLite in Python and other languages. The Python SQLite3
 
 SQLite can also be used with Powershell to read Inq.Uisitor data.  [SQLite and PowerShell with SimplySql](https://www.powershellgallery.com/packages/SimplySql/2.0.2.70)
 
-### Data Design
+# Creating Custom Reporting
 
+## Senserva's Data Design
+
+This is an quick overview of the main data tables used by Senserva to go give you an idea of the extent of our data.  Use a product like [DB Browser for SQLite](https://sqlitebrowser.org/) to full review the data format and content.  You do not need to know the database to run Inq.exe.  These notes are for people who want to create their own customizations.
+
+Our date does contain a history as well.
+
+Our tables also contain rich set of Json data as well so is a lot of data you can use to create custom solutions.  Or you can just use our UI, it is pretty good :)
+
+```mermaid
 ---
-title: Senserva Data Model
+title: Senserva Core Data Model
 ---
 classDiagram
     note "From Duck till Zebra"
     Animal <|-- Duck
-    note for Duck "can fly\ncan swim\ncan dive\ncan help in debugging"
     Animal <|-- Fish
     Animal <|-- Zebra
     Animal : +int age
     Animal : +String gender
     Animal: +isMammal()
     Animal: +mate()
-    class Duck{
-        +String beakColor
-        +swim()
-        +quack()
-    }
+    note "Senserva stores Nodes, Edges and Counts." 
+    note "Nodes are things like users and Edges connect to nodes to other nodes."
+    note "So a Node for a User can be connected to a Node for a Group as an example."
+    note "Count tables track key data to see what trends here are"
+
+    class Node{
+                        Timestamp TEXT NOT NULL,
+                        TenantId TEXT NOT NULL,
+                        AuditId INTEGER NOT NULL,
+                        SystemId TEXT NOT NULL,
+                        Name TEXT NULL,
+                        DataDeleted TEXT NULL,
+                        DataCreated TEXT NULL,
+                        DataUpdated TEXT NULL,
+                        Json TEXT NULL,
+                    }
+
+    class ConditionalAccessCounts{
+         Timestamp TEXT NOT NULL,
+         TenantId TEXT NOT NULL,
+         AuditId INTEGER NOT NULL,
+         ValueType TEXT NOT NULL,
+         PolicyId TEXT NOT NULL,
+         PolicyName TEXT NOT NULL,
+         UserId TEXT NOT NULL,
+         UserName TEXT NOT NULL,
+         Key  TEXT NOT NULL,
+         Count INTEGER NULL,
+  }
     class Fish{
         -int sizeInFeet
         -canEat()
@@ -126,7 +157,7 @@ classDiagram
         +run()
     }
 
-
+```
 ## Changing Content with the Senserva CSV file
 
 ## Web Pages
