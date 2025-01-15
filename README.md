@@ -8,11 +8,30 @@ Inq.Uisitor, or inq.exe, runs out of the box, sets itself up automatically and c
 
 ## Key Features
 
-* There are no servers used. No web servers, no database severs.  Yet there is a full releational database and rich web pages to review results. This is done by design, the keep the data local and to keep it simple on the outside but very advance do the inside.
+* There are no servers used. No web servers, no database severs. None.  Yet there is a full releational database thanks to SQLite and rich web pages based on html files local to the inq.exe directly to review results. This is done by design, to keep the data local and to keep it simple on the outside but very advance do the inside.
+* Each time you run an scan only changes are recorded in the database.  You can run inq.exe all you want and only new data is saved.
+* Easy to login to Azure, including Zero setup options.
+* Output text can be easily customized via auto-generated CSV files that are used to display all key text.
+* Full logging support, makes it easy to understand what is going on inside Inq.exe
+* Source code available
 
 ## How it Works
 
-## SQLite Database
+Inq.Uisitor runs scans on demand, with scheduling and Containers comming in a future beta.
+
+### Many Options for Logging into Azure
+
+Inq.exe and many options to login in to Azure.  The easiest way to go is to use the Azure CLI and inq.exe just uses your current login, you do not need to do anything if you are already using the Azure CLI, or you can easily set it up.  The Azure Powershell is also supported
+
+### The Azure CLI
+
+The Azure Command-Line Interface (CLI) is a cross-platform command-line tool to connect to Azure and execute administrative commands on Azure resources. It allows the execution of commands through a terminal using interactive command-line prompts or a script. [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/what-is-azure-cli)
+
+### The Az PowerShell Module
+
+The Az PowerShell module is a set of cmdlets for managing Azure resources directly from PowerShell. [The Az PowerShell Module](https://learn.microsoft.com/en-us/powershell/azure/new-azureps-module-az?view=azps-13.0.0)
+
+### SQLite Database
 
 The Senserva Inq.Uisitor is built with SQLite. SQLite is a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world. [More About Sqlite](https://www.sqlite.org/)
 
@@ -21,6 +40,8 @@ The default name of the Senserva database is senserva.sqlite and it is automatic
 It is easy to work with SQLite in Python and other languages. The Python SQLite3 module is used to integrate the SQLite database with Python. There is no need to install this module separately as it comes along with Python after the 2.5x version. [More About Python and Sqlite](https://docs.python.org/3/library/sqlite3.html) 
 
 SQLite can also be used with Powershell to read Inq.Uisitor data.  [SQLite and PowerShell with SimplySql](https://www.powershellgallery.com/packages/SimplySql/2.0.2.70)
+
+## Changing Content with the Senserva CSV file
 
 ## Web Pages
 
@@ -31,9 +52,9 @@ Runtimes for Senserva - early beta please contact us for assistance and informat
 
 ## What is Coming Next
 
-Scheduling
-Containers
-Powershell CommandLets
+* Scheduling
+* Inq.exe in Containers
+* Inq.exe in Powershell CommandLets
 
 ## FAQ
 
