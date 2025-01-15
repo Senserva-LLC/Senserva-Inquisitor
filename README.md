@@ -49,13 +49,25 @@ graph LR;
 
 Inq.exe and many options to login in to Azure.  The easiest way to go is to use the Azure CLI and inq.exe just uses your current login, you do not need to do anything if you are already using the Azure CLI, or you can easily set it up.  The Azure Powershell is also supported
 
-### The Azure CLI
+#### The Azure CLI
+
+The best way to start working with Inq.exe. If its already running for you there is nothing to do.  If its not already running its easy to install and login and let Inq.exe take it from there.
 
 The Azure Command-Line Interface (CLI) is a cross-platform command-line tool to connect to Azure and execute administrative commands on Azure resources. It allows the execution of commands through a terminal using interactive command-line prompts or a script. [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/what-is-azure-cli)
 
-### The Az PowerShell Module
+#### The Az PowerShell Module
+
+Note Beta 1 is not reliable for this, at  least in our testing. It may work for you.
 
 The Az PowerShell module is a set of cmdlets for managing Azure resources directly from PowerShell. [The Az PowerShell Module](https://learn.microsoft.com/en-us/powershell/azure/new-azureps-module-az?view=azps-13.0.0)
+
+#### The Senserva Demo EntraID Client
+
+Example, list all rights for the full product
+
+#### Customer EntraID Client
+
+based on Senserva's but make your own. This is an advanced usage and it enables the most features
 
 ### SQLite Database
 
