@@ -8,7 +8,7 @@ Runtimes for Senserva - early beta please contact us for assistance and informat
 
 ## Known Bugs
 
-## What is Comming Next
+## What is Coming Next
 
 Scheduling
 Containers
