@@ -10,20 +10,30 @@ Inq.Uisitor, or inq.exe, runs out of the box, sets itself up automatically and c
 
 Please see our the [Inq.exe Wiki](https://github.com/Senserva-LLC/Senserva-Runtime/wiki) for more Detailed Screen Shots and Data Examples.
 
-## Key Features
+# Key Features
 
 * There are no servers used. No web servers, no database severs. None.  Yet there is a full releational database thanks to SQLite and rich web pages based on html files local to the inq.exe directly to review results. This is done by design, to keep the data local and to keep it simple on the outside but very advance do the inside.
 * Just download the Signed Inq.exe and go, setup is complete automated. 
 * Each time you run an scan only changes are recorded in the database.  You can run inq.exe all you want and only new data is saved.
 * Easy to login to Azure, including Zero setup options.
 * It is easy to share data with others. Inq.exe runs in two modes, audit mode which requires an Azure Login and Reporting mode which can be run by anyone.
-* The database can be easly accessed from multiple platforms to create custom monitors and reports.
-* The User interface can export Json with dials that enable it to be broad or specific data. This data can also be used for custom monitors are reports.
+* Built to be customized. The database and user interface can be easly accessed and customized from multiple platforms to create custom monitors and reports.
+* The User interface can export Json with user interface search and filter dials that enable it to be broad or specific data. 
 * Output text can be easily customized via auto-generated CSV files that are used to display all key text.
 * Full leveled logging to auto-rolling files support, makes it easy to understand what is going on inside Inq.exe
 * Source code available
 
-## How it Works
+# Quick Start
+
+The best thing to do to get started is download Inq.exe with a double click and run it. The Senserva Inq.Uisitor as many options and ways to work with, but things can come as you learn more about Inq.exe.
+
+## Auto Install
+
+ Inq.exe installs itself, just run it and the first time it will create the database and browser files it needs in the directory you are running in
+
+
+
+# How it Works
 
 Inq.Uisitor runs scans on demand, with scheduling and Containers comming in a future beta.
 
@@ -69,15 +79,49 @@ Example, list all rights for the full product
 
 based on Senserva's but make your own. This is an advanced usage and it enables the most features
 
-### SQLite Database
+## Senserva Database
 
-The Senserva Inq.Uisitor is built with SQLite. SQLite is a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world. [More About Sqlite](https://www.sqlite.org/)
+The Senserva Inq.Uisitor uses a relational database to store results.
 
-The default name of the Senserva database is senserva.sqlite and it is automaticly created in the directy inq.exe is run from.  You can copy the database, share it (securely) or just delete it and run inq.exe again to rebuild it.  Senserva inq.exe will update the database each time it is run, with full deduping so you only get new data.
+## Senserva Data Model
+
+## Senserva Integrations
+
+Inq.exe is built with SQLite. SQLite is a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world. [More About Sqlite](https://www.sqlite.org/)
 
 It is easy to work with SQLite in Python and other languages. The Python SQLite3 module is used to integrate the SQLite database with Python. There is no need to install this module separately as it comes along with Python after the 2.5x version. [More About Python and Sqlite](https://docs.python.org/3/library/sqlite3.html) 
 
 SQLite can also be used with Powershell to read Inq.Uisitor data.  [SQLite and PowerShell with SimplySql](https://www.powershellgallery.com/packages/SimplySql/2.0.2.70)
+
+### Data Design
+
+---
+title: Senserva Data Model
+---
+classDiagram
+    note "From Duck till Zebra"
+    Animal <|-- Duck
+    note for Duck "can fly\ncan swim\ncan dive\ncan help in debugging"
+    Animal <|-- Fish
+    Animal <|-- Zebra
+    Animal : +int age
+    Animal : +String gender
+    Animal: +isMammal()
+    Animal: +mate()
+    class Duck{
+        +String beakColor
+        +swim()
+        +quack()
+    }
+    class Fish{
+        -int sizeInFeet
+        -canEat()
+    }
+    class Zebra{
+        +bool is_wild
+        +run()
+    }
+
 
 ## Changing Content with the Senserva CSV file
 
