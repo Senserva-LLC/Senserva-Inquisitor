@@ -2,6 +2,20 @@
 
 # The Senserva Inq.Uisitor (Inq.exe) Overview
 
+The Senserva Inq.Uisitor (Inquisitor) is a free product designed to make it easier to know the security state of all the Entra IDs a technical team supports.  It can be used by either IT teams or Security teams.
+
+Inq.Uisitor, or inq.exe, runs out of the box and creates the web pages as show before.  It also has a rich set of parameters and uses a Sqlite database to start data.  This data can be used to easily create custom reports.
+
+## SQLite Database
+
+The Senserva Inq.Uisitor is built with SQLite. SQLite is a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world. [More About Sqlite](https://www.sqlite.org/)
+
+It is easy to work with SQLite in Python and other languages. The Python SQLite3 module is used to integrate the SQLite database with Python. There is no need to install this module separately as it comes along with Python after the 2.5x version. [More About Python and Sqlite](https://docs.python.org/3/library/sqlite3.html) 
+
+SQLite can also be used with Powershell to read Inq.Uisitor data.  [SQLite and PowerShell with SimplySql](https://www.powershellgallery.com/packages/SimplySql/2.0.2.70)
+
+## Web Pages
+
 # Project Status
 Runtimes for Senserva - early beta please contact us for assistance and information. Senserva provides public contains with signifigant support, and then we add more for partners and customers who work more closely with us. All for free. Source could available to select partners and customers, please check with us.
 
