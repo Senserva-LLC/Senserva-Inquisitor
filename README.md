@@ -4,11 +4,19 @@
 
 The Senserva Inq.Uisitor (Inquisitor) is a free product designed to make it easier to know the security state of all the Entra IDs a technical team supports.  It can be used by either IT teams or Security teams.
 
-Inq.Uisitor, or inq.exe, runs out of the box and creates the web pages as show before.  It also has a rich set of parameters and uses a Sqlite database to start data.  This data can be used to easily create custom reports.
+Inq.Uisitor, or inq.exe, runs out of the box, sets itself up automatically and creates the web pages as show below.  It also has a rich set of parameters and uses a Sqlite database to start data.  This data can be used to easily create custom reports.
+
+## Key Features
+
+* There are no servers used. No web servers, no database severs.  Yet there is a full releational database and rich web pages to review results. This is done by design, the keep the data local and to keep it simple on the outside but very advance do the inside.
+
+## How it Works
 
 ## SQLite Database
 
 The Senserva Inq.Uisitor is built with SQLite. SQLite is a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world. [More About Sqlite](https://www.sqlite.org/)
+
+The default name of the Senserva database is senserva.sqlite and it is automaticly created in the directy inq.exe is run from.  You can copy the database, share it (securely) or just delete it and run inq.exe again to rebuild it.  Senserva inq.exe will update the database each time it is run, with full deduping so you only get new data.
 
 It is easy to work with SQLite in Python and other languages. The Python SQLite3 module is used to integrate the SQLite database with Python. There is no need to install this module separately as it comes along with Python after the 2.5x version. [More About Python and Sqlite](https://docs.python.org/3/library/sqlite3.html) 
 
@@ -56,13 +64,7 @@ Please review the SenservaLicnese file before using this software. And note Thes
 
 Please note these run times are not yet ready for use, we are testing out the builds etc.
 
-# Details
 
-```json
-
-Your JSON here
-
-```
 # About Senserva
 
 The Senserva team is built with a team Microsoft Security Industry leaders including former Microsoft employees. Senserva believes an essential component of computer security is the efficient application of security tools and automated processes.
@@ -88,6 +90,14 @@ There is no setup, just download and go.  No servers and no data leaves your dev
 Please Read our terms of use https://senserva.com/senserva-terms-of-use
 
 Usage of SenservaInquisitor.  Run SenservaInquisitor -help after downloading.
+
+# Details
+
+```json
+
+Your JSON here
+
+```
 
 
 
