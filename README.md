@@ -31,7 +31,7 @@ title: Senserva in Action
 ---
 
 
-graph TD;
+graph LR;
     Login --> Read-Azure --> Review-Azure-State --> Database[(SQLite)] --> Create-Rich-Webpages;
     Azure-Cli-Client-->Login;
     Senserva-EntraID-Client-->Login;
@@ -40,7 +40,7 @@ graph TD;
     CSV-Importer --> Database[(SQLite)]
     Create-Rich-Webpages --> Json;
     Json --> Custom-Solutions;
-    Write-New-Results-SQLite --> Custom-Solutions
+    Database[(SQLite)] --> Custom-Solutions
 ```
 
 ### Many Options for Logging into Azure
