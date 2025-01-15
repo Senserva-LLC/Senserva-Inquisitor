@@ -12,15 +12,16 @@ Inq.Uisitor, or inq.exe, runs out of the box, sets itself up automatically and c
 * Just download the Signed Inq.exe and go, setup is complete automated. 
 * Each time you run an scan only changes are recorded in the database.  You can run inq.exe all you want and only new data is saved.
 * Easy to login to Azure, including Zero setup options.
-* The database can be easly access from multiple platforms to create custom monitors and reports.
+* The database can be easly accessed from multiple platforms to create custom monitors and reports.
 * The User interface can export Json with dials that enable it to be broad or specific data. This data can also be used for custom monitors are reports.
 * Output text can be easily customized via auto-generated CSV files that are used to display all key text.
-* Full logging support, makes it easy to understand what is going on inside Inq.exe
+* Full leveled logging to auto-rolling files support, makes it easy to understand what is going on inside Inq.exe
 * Source code available
 
 ## How it Works
 
 Inq.Uisitor runs scans on demand, with scheduling and Containers comming in a future beta.
+<insert graphic>
 
 ### Many Options for Logging into Azure
 
