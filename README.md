@@ -98,27 +98,16 @@ SQLite can also be used with Powershell to read Inq.Uisitor data.  [SQLite and P
 
 ## Senserva's Data Design
 
-This is an quick overview of the main data tables used by Senserva to go give you an idea of the extent of our data.  Use a product like [DB Browser for SQLite](https://sqlitebrowser.org/) to full review the data format and content.  You do not need to know the database to run Inq.exe.  These notes are for people who want to create their own customizations. Our tables also contain rich set of Json data as well so is a lot of data you can use to create custom solutions.  Or you can just use our UI, it is pretty good :)
+This is an quick overview of the main data tables used by Senserva to go give you an idea of the extent of our data.  Use a product like [DB Browser for SQLite](https://sqlitebrowser.org/) to full review the data format and content.  Or contact us we are glad to help.
+
+You do not need to know the database to run Inq.exe.  These notes are for people who want to create their own customizations. Our tables also contain rich set of Json data as well so is a lot of data you can use to create custom solutions.  Or you can just use our UI, it is pretty good :)
 
 ```mermaid
 ---
 title: Senserva Core Data Model
 ---
 classDiagram
-    note "From Duck till Zebra"
-    Animal <|-- Duck
-    Animal <|-- Fish
-    Animal <|-- Zebra
-    Animal : +int age
-    Animal : +String gender
-    Animal: +isMammal()
-    Animal: +mate()
-    note "Senserva stores Nodes, Edges and Counts." 
-    note "Nodes are things like users and Edges connect to nodes to other nodes."
-    note "So a Node for a User can be connected to a Node for a Group as an example."
-    note "Count tables track key data to see what trends here are"
-
-    class Node { 
+      class Node { 
          Timestamp
          TenantId
          AuditId
@@ -130,7 +119,7 @@ classDiagram
          Json
     }
 
-   class EdgesTable
+   class EdgesTable {
          Timestamp
          AuditId
          DeletedTime
@@ -141,6 +130,25 @@ classDiagram
          TargetName
          TargetSubId
    }
+
+  class AuditItem{
+  TenantId
+  TenantName
+  AuditId
+  AuditGroup
+  AuditType
+  ResultDetails
+  Risk
+  TimeOfOccurance
+  SystemId
+  SystemName
+  SystemId2
+  SystemName2
+  UserId
+  UserName
+  Status
+  Json
+ }
 
     class ConditionalAccessCounts{
          Timestamp
@@ -154,14 +162,7 @@ classDiagram
          Key
          Count
   }
-    class Fish{
-        -int sizeInFeet
-        -canEat()
-    }
-    class Zebra{
-        +bool is_wild
-        +run()
-    }
+   
 
 ```
 ## Changing Content with the Senserva CSV file
