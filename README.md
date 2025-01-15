@@ -136,13 +136,7 @@ Please Read our terms of use https://senserva.com/senserva-terms-of-use
 
 Usage of SenservaInquisitor.  Run SenservaInquisitor -help after downloading.
 
-# Details
 
-```json
-
-Your JSON here
-
-```
 
 
 
