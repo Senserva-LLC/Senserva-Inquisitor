@@ -26,12 +26,18 @@ Please see our the [Inq.exe Wiki](https://github.com/Senserva-LLC/Senserva-Runti
 Inq.Uisitor runs scans on demand, with scheduling and Containers comming in a future beta.
 
 ```mermaid
+---
+title: Senserva in Action
+---
+
+
 graph LR;
-    Login --> Read-Azure --> Review-Azure-State --> Write-New-Results-SQLite --> Create-Rich-Webpages;
+    Login --> Read-Azure --> Review-Azure-State --> Database[(SQLite)] --> Create-Rich-Webpages;
     Azure-Cli-Client-->Login;
     Senserva-EntraID-Client-->Login;
     Powershell-Cli-Client -->Login;
-    User-Customized-Strings --> Write-New-Results-SQLite;
+    User-Customized-Strings --> CSV-Importer;
+    CSV-Importer --> Database[(SQLite)]
     Create-Rich-Webpages --> Json;
     Json --> Custom-Solutions;
     Write-New-Results-SQLite --> Custom-Solutions
