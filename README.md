@@ -6,6 +6,8 @@ The Senserva Inq.Uisitor (Inquisitor) is a free product designed to make it easy
 
 Inq.Uisitor, or inq.exe, runs out of the box, sets itself up automatically and creates a rich set of interactive web pages.  It also has a broad set of parameters and CSV files to neable customizatoins. Inq.exe uses a local SQL database (server less SQLIte) to store data.  This database can be used to easily create custom reports.
 
+Please see our Wiki for Detailed Screen Shots and Data Examples [Sites Using React](https://github.com/facebook/react/wiki/Sites-Using-React)
+
 ## Key Features
 
 * There are no servers used. No web servers, no database severs. None.  Yet there is a full releational database thanks to SQLite and rich web pages based on html files local to the inq.exe directly to review results. This is done by design, to keep the data local and to keep it simple on the outside but very advance do the inside.
