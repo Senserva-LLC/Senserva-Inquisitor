@@ -33,6 +33,8 @@ graph TD;
     Powershell-Cli-Client -->Login;
     User-Customized-Strings --> Write-New-Results-SQLite;
     Create-Rich-Webpages --> Json;
+    Json --> Custom-Solutions;
+    Write-New-Results-SQLite --> Custom-Solutions
 ```
 
 ### Many Options for Logging into Azure
