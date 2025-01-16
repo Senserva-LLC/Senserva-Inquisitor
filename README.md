@@ -16,7 +16,7 @@ Senserva built this product to automate its own use of Entra ID, conditional acc
 > [!IMPORTANT]
 > **This is Beta 1, it will return great data, but it may not always be accurate.  We need feedback. Please create Issues for all requests. Thank you - the Senserva Team. **
 
-# ✨Quick Start
+# ✨ $${\color{LimeGreen}Inquisitor}$$ Quick Start
 
 The best thing to do to get started is download $${\color{LimeGreen}Inq.exe}$$ with a double click and run it. It has a digital signature so your AV should be OK with it. If not please let us know right away.
 
@@ -39,7 +39,7 @@ The Senserva $${\color{LimeGreen}Inquisitor}$$ (aka $${\color{LimeGreen}Inq.exe}
 * Source code available
 
 
-# 🛠️ How $${\color{LimeGreen}Inq.exe}$$ Works
+# 🛠️ How $${\color{LimeGreen}Inquisitor}$$ Works
 
 $${\color{LimeGreen}Inq.exe}$$ runs scans on demand, with scheduling and Containers coming in a future beta.
 
@@ -52,11 +52,11 @@ $${\color{LimeGreen}Inq.exe}$$ and many options to login in to Azure.  The easie
 > [!TIP]
 > If you are using Azure CLI login with that to start out.  It is easy, you have nothing to do. Over time you may want to create your own Entra ID Client to get all the rights Inq.exe is able to take advanage of.
 
-## How Inq.exe uses User Rights. TODO
+## How $${\color{LimeGreen}Inquisitor}$$ uses User Rights. TODO
 
 #### The Azure CLI
 
-The best way to start working with Inq.exe. If its already running for you there is nothing to do.  If its not already running its easy to install and login and let Inq.exe take it from there.
+The best way to start working with $${\color{LimeGreen}Inq.exe}$$. If its already running for you there is nothing to do.  If its not already running its easy to install and login and let Inq.exe take it from there.
 
 The Azure Command-Line Interface (CLI) is a cross-platform command-line tool to connect to Azure and execute administrative commands on Azure resources. It allows the execution of commands through a terminal using interactive command-line prompts or a script. [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/what-is-azure-cli)
 
@@ -74,7 +74,7 @@ Example, list all rights for the full product
 
 based on Senserva's but make your own. This is an advanced usage and it enables the most features
 
-## $${\color{LimeGreen}Inq.exe}$$ Data and Process Flow
+## $${\color{LimeGreen}Inquisitor}$$ Data and Process Flow
 
 ```mermaid
 ---
@@ -96,16 +96,16 @@ graph LR;
 
 
 
-# $${\color{LimeGreen}Inq.exe}$$ Database
+# $${\color{LimeGreen}Inquisitor}$$ Database
 
-The Senserva $${\color{LimeGreen}Inq.exe}$$ uses a relational database to store results. You can 100% ignore the database if you wish, or you can dig in an create your own reporting.  The data model is basic and after a few runs of Inq.exe it will make sense to you.
+The Senserva $${\color{LimeGreen}Inquisitor}$$ uses a relational database to store results. You can 100% ignore the database if you wish, or you can dig in an create your own reporting.  The data model is basic and after a few runs of Inq.exe it will make sense to you.
 
 > [!NOTE]
-> Digging into the Senserva  $${\color{LimeGreen}Inq.exe}$$ database is for advanced users who want to create their own front-end to the data, something we encourage as long as license rights are followed.  But - at the same time - we have a great customizable UI out of the box, start there.  You can edit the text via published CSV files if you wish.
+> Digging into the Senserva $${\color{LimeGreen}Inq.exe}$$ database is for advanced users who want to create their own front-end to the data, something we encourage as long as license rights are followed.  But - at the same time - we have a great customizable UI out of the box, start there.  You can edit the text via published CSV files if you wish.
 
-## ⚙️ $${\color{LimeGreen}Inq.exe}$$ Data Level Integrations
+## ⚙️ $$${\color{LimeGreen}Inquisitor}$$ Data Level Integrations
 
-$${\color{LimeGreen}Inq.exe}$$ is built with SQLite. SQLite is a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world. [More About Sqlite](https://www.sqlite.org/)
+$${\color{LimeGreen}Inquisitor}$$ is built with SQLite. SQLite is a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world. [More About Sqlite](https://www.sqlite.org/)
 
 It is easy to work with SQLite in Python and other languages. The Python SQLite3 module is used to integrate the SQLite database with Python. There is no need to install this module separately as it comes along with Python after the 2.5x version. [More About Python and Sqlite](https://docs.python.org/3/library/sqlite3.html) 
 
@@ -240,9 +240,9 @@ Senserva provides an Excel Compliant file that you can easily edit to control ou
 # $${\color{LimeGreen}Inquisitor}$$ Project Status
 Runtimes for Senserva - early beta please contact us for assistance and information. Senserva provides public contains with significant support, and then we add more for partners and customers who work more closely with us. All for free. Source could available to select partners and customers, please check with us.
 
-## Known Bugs
+## ${\color{LimeGreen}Inquisitor}$$ Known Bugs
 
-## 🚧 $${\color{LimeGreen}Inq.exe}$$ Feature Roadmap
+## 🚧 ${\color{LimeGreen}Inquisitor}$$ Feature Roadmap
 
 * Scheduling
 * $${\color{LimeGreen}Inq.exe}$$ in Containers
@@ -250,7 +250,7 @@ Runtimes for Senserva - early beta please contact us for assistance and informat
 * Drift Managent
   
 
-## 💬 FAQ
+## 💬 ${\color{LimeGreen}Inquisitor}$$ FAQ
 
 * Hobby 1
   * Nested Hobby 1
