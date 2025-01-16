@@ -50,7 +50,7 @@ Inq.exe and many options to login in to Azure.  The easiest way to go is to use 
 > [!TIP]
 > If you are using Azure CLI login with that to start out.  It is easy, you have nothing to do. Over time you may want to create your own Entra ID Client to get all the rights Inq.exe is able to take advanage of.
 
-## How Int.exe uses User Rights. TODO
+## How Inq.exe uses User Rights. TODO
 
 #### The Azure CLI
 
@@ -72,7 +72,7 @@ Example, list all rights for the full product
 
 based on Senserva's but make your own. This is an advanced usage and it enables the most features
 
-## Data Flow
+## Inq.exe Data and Process Flow
 
 ```mermaid
 ---
@@ -94,7 +94,7 @@ graph LR;
 
 
 
-# Senserva Database
+# Inq.exe Database
 
 The Senserva Inq.Uisitor uses a relational database to store results. You can 100% ignore the database if you wish, or you can dig in an create your own reporting.  The data model is basic and after a few runs of Inq.exe it will make sense to you.
 
@@ -111,7 +111,7 @@ SQLite can also be used with PowerShell to read Inq.Uisitor data.  [SQLite and P
 
 # Custom Reporting
 
-## Senserva's Data Design
+## Inq.exe's Data Design
 
 This is an quick overview of the main data tables used by Senserva to go give you an idea of the extent of our data.  Use a product like [DB Browser for SQLite](https://sqlitebrowser.org/) to full review the data format and content.  Or contact us we are glad to help.  Our data model is simple and the data is rich, take a peek behind the scenes with the DB Browsers when you get a minute.
 
@@ -229,7 +229,7 @@ class CountTrackers["Count Trackers"]{
 > [!CAUTION]
 > Please note that while sharing of Senserva output data easy to do since its in external files, it is important to handle Senserva data with care. Ensure you verify the recipient's identity and always use secure methods for sharing the information.
 > 
-# Changing Content with the Senserva CSV file
+# Changing Content with the Inq.exe CSV file
 
 Senserva provides an Excel Compliant file that you can easily edit to control output text.  The file is created after the first run of Inq.exe (the first run includes the install phase). So to use this CSV data just run 2 scans, the 2nd one is fast because we only look for changes since the last scan.
 
@@ -270,7 +270,7 @@ Runtimes for Senserva - early beta please contact us for assistance and informat
 
 Senserva supports many types of login techniques, but the easiest way to get start is with the Azure Cli. [https://github.com/MicrosoftDocs/azure-docs-cli/blob/main/docs-ref-conceptual/install-azure-cli-windows.md](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) or https://learn.microsoft.com/en-us/dotnet/azure/install-azure-cli 
 
-# 📄 License
+# 📄 Inq.exe License
 Please review the SenservaLicense file before using this software. And note These run times only for END USER USE ONLY. They cannot be used within other products or be embedded in paid services without Senserva's express written permission. Senserva has an established OEM program with a scalable pricing model that works for companies of all sizes.  Please contact us for use of these, and all our works, as part of your products or to be embedded in your services. Also be sure to read the text around PROVIDED "AS IS" AND WITH ALL FAULTS AND DEFECTS WITHOUT WARRANTY OF ANY KIND.
 
 Please note these run times are not yet ready for use, we are testing out the builds etc.
