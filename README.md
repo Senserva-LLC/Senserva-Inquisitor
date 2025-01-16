@@ -10,6 +10,9 @@ You can just look for top issues or you can drill deep on the the state of each 
 
 Senserva built this product to automate its own use of Entra ID, conditional access usage, log monitoring and configuration drift management.  As we showed to more people we realized our best next step is to make it freely available.  
 
+> [!IMPORTANT]
+> **This is Beta 1, it will return great data but we need feedback. Plesae create Issues for all requests. Thank you - the Senserva Team. **
+
 Inq.Uisitor, or inq.exe, runs out of the box, sets itself up automatically and creates a rich set of interactive web pages.  It also has a broad set of parameters and CSV files to neable customizatoins. Inq.exe uses a local SQL database (server less SQLIte) to store data.  This database can be used to easily create custom reports.
 
 Please see our the [Inq.exe Wiki](https://github.com/Senserva-LLC/Senserva-Runtime/wiki) for more Detailed Screen Shots and Data Examples.
@@ -33,6 +36,9 @@ Please see our the [Inq.exe Wiki](https://github.com/Senserva-LLC/Senserva-Runti
 # Quick Start
 
 The best thing to do to get started is download Inq.exe with a double click and run it. The Senserva Inq.Uisitor as many options and ways to work with, but things can come as you learn more about Inq.exe.
+
+> [!TIP]
+> Start with the quick start and take the defaults.  Let Inq.exe do the initial heavy lifting. Then afer a few usages start looking deep into the data.
 
 ## Auto Install
 
