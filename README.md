@@ -37,29 +37,6 @@ The best thing to do to get started is download Inq.exe with a double click and 
 * Trends stored in the data. Senserva data is deduped and also contains a history.  So it does not grow too large, but at the same time you can observe changes over time.
 * Source code available
 
-
-# 🛠️ How it Works
-
-Inq.Uisitor runs scans on demand, with scheduling and Containers comming in a future beta.
-
-```mermaid
----
-title: Senserva in Action
----
-
-
-graph LR;
-    Login --> read-azure[Read Azure] --> Review-Azure-State[Review Azure State] --> Database[(SQLite)] --> Create-Webpages[Create Webpages];
-    Azure-Cli-Client[Azure Cli] -->Login;
-    Senserva-EntraID-Client[Senserva Entra Client] -->Login;
-    Customer-EntraID-Client[Customer Entra Client] -->Login;
-    Powershell-Cli-Client[Azure PowerShell Client] -->Login;
-    User-Customized-Strings[Customized Strings] --> CSV-Importer[CSV Importer];
-    CSV-Importer --> Database[(SQLite)]
-    Create-Webpages --> Json;
-    Database[(SQLite)] --> Custom-Solutions[Custom Solutions]
-```
-
 ### There are Many Options for Logging into Azure
 
 Inq.exe and many options to login in to Azure.  The easiest way to go is to use the Azure CLI and inq.exe just uses your current login, you do not need to do anything if you are already using the Azure CLI, or you can easily set it up.  The Azure Powershell is also supported
@@ -83,6 +60,29 @@ Example, list all rights for the full product
 #### Customer EntraID Client
 
 based on Senserva's but make your own. This is an advanced usage and it enables the most features
+# 🛠️ How it Works
+
+Inq.Uisitor runs scans on demand, with scheduling and Containers comming in a future beta.
+
+```mermaid
+---
+title: Senserva in Action
+---
+
+
+graph LR;
+    Login --> read-azure[Read Azure] --> Review-Azure-State[Review Azure State] --> Database[(SQLite)] --> Create-Webpages[Create Webpages];
+    Azure-Cli-Client[Azure Cli] -->Login;
+    Senserva-EntraID-Client[Senserva Entra Client] -->Login;
+    Customer-EntraID-Client[Customer Entra Client] -->Login;
+    Powershell-Cli-Client[Azure PowerShell Client] -->Login;
+    User-Customized-Strings[Customized Strings] --> CSV-Importer[CSV Importer];
+    CSV-Importer --> Database[(SQLite)]
+    Create-Webpages --> Json;
+    Database[(SQLite)] --> Custom-Solutions[Custom Solutions]
+```
+
+
 
 # Senserva Database
 
