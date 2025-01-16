@@ -217,7 +217,7 @@ class CountTrackers["Count Trackers"]{
 ```
 
 > [!CAUTION]
-> Please note that while is great to share, sharing of the Senserva data should be done with caution. Be sure who you are giving it to, and be sure to share via secured methods.
+> Please note that while sharing of Senserva output data easy to do since its in external files, it is important to handle Senserva data with care. Ensure you verify the recipient's identity and always use secure methods for sharing the information.
 > 
 # Changing Content with the Senserva CSV file
 
