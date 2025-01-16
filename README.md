@@ -25,7 +25,7 @@ The Senserva $${\color{LimeGreen}Inquisitor}$$ (aka $${\color{LimeGreen}Inq.exe}
 > [!TIP]
 > Start with the quick start and take the defaults.  Let $${\color{LimeGreen}Inq.exe}$$ do the initial heavy lifting. Then after a few usages start looking deep into the data.
 
-# 🚀 Key Features
+# 🚀 Key $${\color{LimeGreen}Inquisitor}$$ Features
 * There are no servers used. No web servers, no database severs. None.  Yet there is a full relational database thanks to SQLite and rich web pages based on html files local to the inq.exe directly to review results. This is done by design, to keep the data local and to keep it simple on the outside but very advance do the inside.
 * Just download the Signed Inq.exe and go, setup is complete automated. 
 * Each time you run an scan only changes are recorded in the database.  You can run inq.exe all you want and only new data is saved.
@@ -35,7 +35,7 @@ The Senserva $${\color{LimeGreen}Inquisitor}$$ (aka $${\color{LimeGreen}Inq.exe}
 * The User interface can export Json with user interface search and filter dials that enable it to be broad or specific data. 
 * Output text can be easily customized via auto-generated CSV files that are used to display all key text.
 * Full leveled logging to auto-rolling files support, makes it easy to understand what is going on inside Inq.exe.
-* Trends stored in the data. Senserva data is deduped and contains a history.  So, it does not grow too large, but at the same time you can observe changes over time.
+* Trends stored in the data. $${\color{LimeGreen}Inquisitor}$$ data is deduped and contains a history.  So, it does not grow too large, but at the same time you can observe changes over time.
 * Source code available
 
 
@@ -74,13 +74,9 @@ Example, list all rights for the full product
 
 based on Senserva's but make your own. This is an advanced usage and it enables the most features
 
-## $${\color{LimeGreen}Inquisitor}$$ Data and Process Flow
+## $${\color{LimeGreen}Inquisitor}$$ In Action
 
 ```mermaid
----
-title: Senserva in Action
----
-
 
 graph LR;
     Login --> read-azure[Read Azure] --> Review-Azure-State[Review Azure State] --> Database[(SQLite)] --> Create-Webpages[Create Webpages];
@@ -135,10 +131,6 @@ You do not need to know the database to run $${\color{LimeGreen}Inq.exe}$$.  The
 
 ```mermaid
 
-
----
-title: Senserva Data Model
----
 classDiagram
    
     AuditHistory <|-- Node
