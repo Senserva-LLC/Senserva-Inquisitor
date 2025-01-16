@@ -1,17 +1,19 @@
-<img src="https://github.com/user-attachments/assets/5ce51b46-cdd7-4828-926c-9e9c3ec82460" width="200">
+<img align="center" height="50" src="https://github.com/user-attachments/assets/5ce51b46-cdd7-4828-926c-9e9c3ec82460">
 
-# Senserva $${\color{LimeGreen}Inquisitor}$$
+# Know your Entra ID Security State in minutes! No Setup Needed with The $${\color{LimeGreen}Senserva} {\color{LimeGreen}Inquisitor}$$
 
 > [!WARNING]
 > *** Please NOTE this is not yet ready to download, it will be in the next 24 hours ***
 
-⭐ Please Star us on GitHub — it motivates all of use! (Thank you!!) Follow us too, there are frequent updates.
-
-This is **Beta 1** of the Senserva $${\color{LimeGreen}Inquisitor}$$, a free product designed to make it easy to know the security state of all the Entra IDs a technical team supports.  $${\color{LimeGreen}Inq.exe}$$ can be used by either IT teams or Security teams.  
+This is **Beta 1** of the $${\color{LimeGreen}Senserva Inquisitor}$$, a free product designed to make it easy to know the security state of all the Entra IDs a technical team supports.  $${\color{LimeGreen}Inq.exe}$$ can be used by either IT teams or Security teams.  
 
 You can just look for top issues or you can drill deep on the state of each Entra ID you manage, the data and interface support both. You can also easily edit the content of the Inq.exe user interface or create your own.
 
+
+
 Senserva built this product to automate its own use of Entra ID, conditional access usage, log monitoring and configuration drift management.  As we showed to more people we realized our best next step is to make it freely available.  Senserva also makes an enterprise, MSP and MSSP supporting Security Drift Management product.
+
+⭐ Please Star us on GitHub — it motivates all of use! (Thank you!!) Follow us too, there are frequent updates.
 
 > [!IMPORTANT]
 > **This is Beta 1, it will return great data, but it may not always be accurate.  We need feedback. Please create Issues for all requests. Thank you - the Senserva Team. **
@@ -38,6 +40,7 @@ The Senserva $${\color{LimeGreen}Inquisitor}$$ (aka $${\color{LimeGreen}Inq.exe}
 * Trends stored in the data. $${\color{LimeGreen}Inquisitor}$$ data is deduped and contains a history.  So, it does not grow too large, but at the same time you can observe changes over time.
 * Source code available
 
+# 🌟 $${\color{LimeGreen}Inquisitor}$$ What We Look for
 
 # 🛠️ How $${\color{LimeGreen}Inquisitor}$$ Works
 
