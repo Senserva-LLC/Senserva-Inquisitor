@@ -9,8 +9,6 @@ This is **Beta 1** of the $${\color{LimeGreen}Senserva Inquisitor}$$, a free pro
 
 You can just look for top issues or you can drill deep on the state of each Entra ID you manage, the data and interface support both. You can also easily edit the content of the  $${\color{LimeGreen}Inq.exe}$$ user interface or create your own.
 
-Senserva built this product to automate its own use of Entra ID, conditional access usage, log monitoring and configuration drift management.  As we showed to more people we realized our best next step is to make it freely available.  Senserva also makes an enterprise, MSP and MSSP supporting Security Drift Management product.
-
 ⭐ Please Star us on GitHub — it motivates all of use! (Thank you!!) Follow us too, there are frequent updates.
 
 > [!IMPORTANT]
@@ -38,13 +36,28 @@ The Senserva $${\color{LimeGreen}Inquisitor}$$ (aka $${\color{LimeGreen}Inq.exe}
 * Trends stored in the data. $${\color{LimeGreen}Inquisitor}$$ data is deduped and contains a history.  So, it does not grow too large, but at the same time you can observe changes over time.
 * Source code available
 
-# 🌟 $${\color{LimeGreen}Inquisitor}$$ What We Look For
+# 🌟 $${\color{LimeGreen}Inquisitor}$$ What We Manage
 
-* Hobby 1
-  * Nested Hobby 1
-    * Sub-nested Hobby 1
-* Hobby 2
-* Hobby 3
+* Extensive Audits
+  * Directory Logs
+  * Signin Logs
+  * Conditional Access Rules and Usage
+  * Users
+* Basic Audits
+  * Service Principals
+  * Devices
+  * Groups
+  * Roles
+  * Risky Users
+  * Risk Detections
+* Next
+  * More ServicePrincipalAudit, GroupsAudit, Roles, Risky Users, Risk Detections
+  * Add
+    * SecureScoreAudit
+    * ServicePrincipalRiskDetectionsAudit
+    * RiskyServicePrincipalsAudit
+    * PimAudit
+  
 
 # 🛠️ How $${\color{LimeGreen}Inquisitor}$$ Works
 
