@@ -103,7 +103,7 @@ The Senserva $${\color{LimeGreen}Inquisitor}$$ uses a relational database to sto
 > [!NOTE]
 > Digging into the Senserva $${\color{LimeGreen}Inq.exe}$$ database is for advanced users who want to create their own front-end to the data, something we encourage as long as license rights are followed.  But - at the same time - we have a great customizable UI out of the box, start there.  You can edit the text via published CSV files if you wish.
 
-## ⚙️ $$${\color{LimeGreen}Inquisitor}$$ Data Level Integrations
+## ⚙️ $${\color{LimeGreen}Inquisitor}$$ Integrations
 
 $${\color{LimeGreen}Inquisitor}$$ is built with SQLite. SQLite is a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world. [More About Sqlite](https://www.sqlite.org/)
 
@@ -123,10 +123,10 @@ You do not need to know the database to run $${\color{LimeGreen}Inq.exe}$$.  The
 
 
 ---
-title: Senserva Core Data Model
+title: Senserva Data Model
 ---
 classDiagram
-
+   
     AuditHistory <|-- Node
     AuditHistory <|-- Edge
     AuditHistory <|-- AuditItem
@@ -135,12 +135,13 @@ classDiagram
     AuditHistory <|-- AuditAttributes
     Node <|-- Edge
 
-     class AuditHistory["Audit History"] {
+     class AuditHistory["Audit History"]:::someclass {
            TenantId
            AuditId
            StartedTime
            Ended
      }
+ style AuditHistory fill:#80BC00,color:#000080
 
       class Node{ 
          Timestamp
@@ -153,6 +154,7 @@ classDiagram
          DataUpdated
          Json
     }
+ style AuditHistory fill:#80BC00,color:#000080
 
    class Edge { 
          Timestamp
@@ -165,6 +167,7 @@ classDiagram
          TargetName
          TargetSubId
    }
+ style Edge fill:#80BC00,color:#000080
 
   class AuditItem["Audit Item"] {
   TenantId
@@ -184,6 +187,7 @@ classDiagram
   Status
   Json
  }
+ style AuditItem fill:#80BC00,color:#000080
 
     class ConditionalAccessCounts["Conditional Access Counts"]{
          Timestamp
@@ -197,6 +201,7 @@ classDiagram
          Key
          Count
     }
+ style ConditionalAccessCounts fill:#80BC00,color:#000080
 
 class CountTrackers["Count Trackers"]{
                         Timestamp 
@@ -208,6 +213,7 @@ class CountTrackers["Count Trackers"]{
                         Name
                         Count
                    }
+ style CountTrackers fill:#80BC00,color:#000080
 
   class AuditAttributes["Audit Attributes"] {
                         Timestamp
@@ -225,6 +231,7 @@ class CountTrackers["Count Trackers"]{
                         Credit
                         }
       
+ style AuditAttributes fill:#80BC00,color:#000080
 
 ```
 
