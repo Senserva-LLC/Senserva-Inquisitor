@@ -93,7 +93,7 @@ graph LR;
     Create-Webpages --> Json;
     Database[(SQLite)] --> Custom-Solutions[Custom Solutions]
 style Login fill:#80BC00,color:#000080,font-size:16pt
-style Customer-EntraID-Client fill:#46C2CB,color:#000080,,font-size:16pt
+style Customer-EntraID-Client fill:#46C2CB,color:#000080,font-size:16pt
 style Azure-Cli-Client fill:#46C2CB,color:#000080,font-size:16pt
 style Senserva-EntraID-Client fill:#46C2CB,color:#000080,font-size:16pt
 style Powershell-Cli-Client fill:#46C2CB,color:#000080,font-size:16pt
