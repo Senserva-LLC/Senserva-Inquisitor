@@ -92,6 +92,20 @@ graph LR;
     CSV-Importer --> Database[(SQLite)]
     Create-Webpages --> Json;
     Database[(SQLite)] --> Custom-Solutions[Custom Solutions]
+style Login fill:#80BC00,color:#000080
+style Customer-EntraID-Client fill:#46C2CB,color:#000080
+style Azure-Cli-Client fill:#46C2CB,color:#000080
+style Senserva-EntraID-Client fill:#46C2CB,color:#000080
+style Powershell-Cli-Client fill:#46C2CB,color:#000080
+style CSV-Importer fill:#80BC00,color:#000080
+style Create-Webpages fill:#80BC00,color:#000080
+style Database fill:#000080,color:#80BC00
+style Custom-Solutions fill:#80BC00,color:#000080
+style Create-Webpages fill:#80BC00,color:#000080
+style Review-Azure-State fill:#80BC00,color:#000080
+style read-azure fill:#80BC00,color:#000080
+style User-Customized-Strings fill:#80BC00,color:#000080
+style Json fill:#000080,color:#80BC00
 ```
 
 
@@ -154,7 +168,7 @@ classDiagram
          DataUpdated
          Json
     }
- style AuditHistory fill:#80BC00,color:#000080
+ style Node fill:#80BC00,color:#000080
 
    class Edge { 
          Timestamp
