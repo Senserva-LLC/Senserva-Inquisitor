@@ -233,10 +233,7 @@ class CountTrackers["Count Trackers"]{
 > 
 # Changing Content with the $${\color{LimeGreen}Inq.exe}$$ CSV file
 
-Senserva provides an Excel Compliant file that you can easily edit to control output text.  The file is created after the first run of Inq.exe (the first run includes the install phase). So to use this CSV data just run 2 scans, the 2nd one is fast because we only look for changes since the last scan.
-Include file here
-
-                  [Example PDF](PDFs/example.pdf)                               
+Senserva provides an Excel Compliant file that you can easily edit to control output text.  The file is created after the first run of Inq.exe (the first run includes the install phase). So to use this CSV data just run 2 scans, the 2nd one is fast because we only look for changes since the last scan.      [Checks](https://github.com/Senserva-LLC/Senserva-Inquisitor/blob/main/Senserva.csv)                               
 
 ## Web Pages
 
