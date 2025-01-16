@@ -39,7 +39,7 @@ The Senserva $${\color{LimeGreen}Inquisitor}$$ (aka $${\color{LimeGreen}Inq.exe}
 * Source code available
 
 
-# 🛠️ How it Works
+# 🛠️ How $${\color{LimeGreen}Inq.exe}$$ Works
 
 $${\color{LimeGreen}Inq.exe}$$ runs scans on demand, with scheduling and Containers coming in a future beta.
 
@@ -74,7 +74,7 @@ Example, list all rights for the full product
 
 based on Senserva's but make your own. This is an advanced usage and it enables the most features
 
-## Inq.exe Data and Process Flow
+## $${\color{LimeGreen}Inq.exe}$$ Data and Process Flow
 
 ```mermaid
 ---
@@ -96,7 +96,7 @@ graph LR;
 
 
 
-# Inq.exe Database
+# $${\color{LimeGreen}Inq.exe}$$ Database
 
 The Senserva $${\color{LimeGreen}Inq.exe}$$ uses a relational database to store results. You can 100% ignore the database if you wish, or you can dig in an create your own reporting.  The data model is basic and after a few runs of Inq.exe it will make sense to you.
 
@@ -237,7 +237,7 @@ Senserva provides an Excel Compliant file that you can easily edit to control ou
 
 ## Web Pages
 
-# Project Status
+# $${\color{LimeGreen}Inquisitor}$$ Project Status
 Runtimes for Senserva - early beta please contact us for assistance and information. Senserva provides public contains with significant support, and then we add more for partners and customers who work more closely with us. All for free. Source could available to select partners and customers, please check with us.
 
 ## Known Bugs
