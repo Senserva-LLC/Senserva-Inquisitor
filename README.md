@@ -111,9 +111,9 @@ It is easy to work with SQLite in Python and other languages. The Python SQLite3
 
 SQLite can also be used with PowerShell to read Inq.Uisitor data.  [SQLite and PowerShell with SimplySql](https://www.powershellgallery.com/packages/SimplySql/2.0.2.70)
 
-# $${\color{LimeGreen}Inq.exe}$$ Custom Reporting
+# $${\color{LimeGreen}Inquisitor}$$ Custom Reporting
 
-## $${\color{LimeGreen}Inq.exe}$$ Data Design
+## $${\color{LimeGreen}Inquisitor}$$ Data Design
 
 This is an quick overview of the main data tables used by Senserva to go give you an idea of the extent of our data.  Use a product like [DB Browser for SQLite](https://sqlitebrowser.org/) to full review the data format and content.  Or contact us we are glad to help.  Our data model is simple and the data is rich, take a peek behind the scenes with the DB Browsers when you get a minute.
 
