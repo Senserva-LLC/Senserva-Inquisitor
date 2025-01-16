@@ -1,6 +1,8 @@
 <img align="center" height="50" src="https://github.com/user-attachments/assets/5ce51b46-cdd7-4828-926c-9e9c3ec82460">
 
-# Know your Entra ID Security State in minutes! No Setup Needed with The $${\color{LimeGreen}Senserva} {\color{LimeGreen}Inquisitor}$$
+*Know your Entra ID Security State in minutes!*
+
+# $${\color{LimeGreen}The} {\color{LimeGreen}Senserva} {\color{LimeGreen}Inquisitor}$$
 
 > [!WARNING]
 > *** Please NOTE this is not yet ready to download, it will be in the next 24 hours ***
@@ -14,9 +16,10 @@ You can just look for top issues or you can drill deep on the state of each Entr
 > [!IMPORTANT]
 > **This is Beta 1, it will return great data, but it may not always be accurate.  We need feedback. Please create Issues for all requests. Thank you - the Senserva Team. **
 
-# ✨ $${\color{LimeGreen}Inquisitor}$$ Quick Start
+# ✨ $${\color{LimeGreen}Inquisitor}$$ No Setup Needed
 
-The best thing to do to get started is download $${\color{LimeGreen}Inq.exe}$$ with a double click and run it. It has a digital signature so your AV should be OK with it. If not please let us know right away.
+The best thing for a $${\color{Orange}Quick Start}$$ to do to get started is download $${\color{LimeGreen}Inq.exe}$$ with a double click and run it. It has a digital signature so your AV should be OK with it. If not please let us know right away.
+ 
 
 The Senserva $${\color{LimeGreen}Inquisitor}$$ (aka $${\color{LimeGreen}Inq.exe}$$) as many options and ways to work with, but things can come as you learn more about $${\color{LimeGreen}Inq.exe}$$. $${\color{LimeGreen}Inq.exe}$$ installs itself, just run it and the first time it will create the database and browser files it needs in the directory you are running in.  That's it, $${\color{LimeGreen}Inq.exe}$$ will figure things on its own from there.
 
