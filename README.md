@@ -5,7 +5,6 @@
 > [!WARNING]
 > *** Please NOTE this is not yet ready to download, it will be in the next 24 hours ***
 
-
 ⭐ Please Star us on GitHub — it motivates all of use! (Thank you!!)  Follow us too, there are frequent updates.
 
 This is Beta 1 of the Senserva Inq.Uisitor, a free product designed to make it easy to know the security state of all the Entra IDs a technical team supports.  Inq.exe can be used by either IT teams or Security teams.  
@@ -37,9 +36,21 @@ The best thing to do to get started is download Inq.exe with a double click and 
 * Trends stored in the data. Senserva data is deduped and contains a history.  So, it does not grow too large, but at the same time you can observe changes over time.
 * Source code available
 
+
+# 🛠️ How it Works
+
+Inq.Uisitor runs scans on demand, with scheduling and Containers coming in a future beta.
+
+## Getting Credentionals
+
 ### There are Many Options for Logging into Azure
 
-Inq.exe and many options to login in to Azure.  The easiest way to go is to use the Azure CLI and inq.exe just uses your current login, you do not need to do anything if you are already using the Azure CLI, or you can easily set it up.  The Azure PowerShell is also supported
+Inq.exe and many options to login in to Azure.  The easiest way to go is to use the Azure CLI and inq.exe just uses your current login, you do not need to do anything if you are already using the Azure CLI, or you can easily set it up.  The Azure PowerShell is also supported.
+
+> [!TIP]
+> If you are using Azure CLI login with that to start out.  It is easy, you have nothing to do. Over time you may want to create your own Entra ID Client to get all the rights Inq.exe is able to take advanage of.
+
+## How Int.exe uses User Rights. TODO
 
 #### The Azure CLI
 
@@ -60,9 +71,8 @@ Example, list all rights for the full product
 #### Customer EntraID Client
 
 based on Senserva's but make your own. This is an advanced usage and it enables the most features
-# 🛠️ How it Works
 
-Inq.Uisitor runs scans on demand, with scheduling and Containers coming in a future beta.
+## Data Flow
 
 ```mermaid
 ---
