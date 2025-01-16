@@ -1,27 +1,29 @@
 <img src="https://github.com/user-attachments/assets/5ce51b46-cdd7-4828-926c-9e9c3ec82460" width="200">
 
-# The Senserva Inq.Uisitor
+# Senserva $${\color{LimeGreen}Inquisitor}$$
 
 > [!WARNING]
 > *** Please NOTE this is not yet ready to download, it will be in the next 24 hours ***
 
-⭐ Please Star us on GitHub — it motivates all of use! (Thank you!!)  Follow us too, there are frequent updates.
+⭐ Please Star us on GitHub — it motivates all of use! (Thank you!!) Follow us too, there are frequent updates.
 
-This is Beta 1 of the Senserva Inq.Uisitor, a free product designed to make it easy to know the security state of all the Entra IDs a technical team supports.  Inq.exe can be used by either IT teams or Security teams.  
+This is **Beta 1** of the Senserva $${\color{LimeGreen}Inquisitor}$$, a free product designed to make it easy to know the security state of all the Entra IDs a technical team supports.  $${\color{LimeGreen}Inq.exe}$$ can be used by either IT teams or Security teams.  
 
 You can just look for top issues or you can drill deep on the state of each Entra ID you manage, the data and interface support both. You can also easily edit the content of the Inq.exe user interface or create your own.
 
-Senserva built this product to automate its own use of Entra ID, conditional access usage, log monitoring and configuration drift management.  As we showed to more people we realized our best next step is to make it freely available.  
+Senserva built this product to automate its own use of Entra ID, conditional access usage, log monitoring and configuration drift management.  As we showed to more people we realized our best next step is to make it freely available.  Senserva also makes an enterprise, MSP and MSSP supporting Security Drift Management product.
 
 > [!IMPORTANT]
-> **This is Beta 1, it will return great data, but it may not be accurate just like ChatGPT, but we will keep testing and make our data accurate.  And we need feedback. Please create Issues for all requests. Thank you - the Senserva Team. **
+> **This is Beta 1, it will return great data, but it may not always be accurate.  We need feedback. Please create Issues for all requests. Thank you - the Senserva Team. **
 
 # ✨Quick Start
 
-The best thing to do to get started is download Inq.exe with a double click and run it. The Senserva Inq.Uisitor as many options and ways to work with, but things can come as you learn more about Inq.exe. Inq.exe installs itself, just run it and the first time it will create the database and browser files it needs in the directory you are running in.  That's it, Inq.exe will figure things on its own from there.
+The best thing to do to get started is download $${\color{LimeGreen}Inq.exe}$$ with a double click and run it. It has a digital signature so your AV should be OK with it. If not please let us know right away.
+
+The Senserva $${\color{LimeGreen}Inquisitor}$$ (aka $${\color{LimeGreen}Inq.exe}$$) as many options and ways to work with, but things can come as you learn more about $${\color{LimeGreen}Inq.exe}$$. $${\color{LimeGreen}Inq.exe}$$ installs itself, just run it and the first time it will create the database and browser files it needs in the directory you are running in.  That's it, $${\color{LimeGreen}Inq.exe}$$ will figure things on its own from there.
 
 > [!TIP]
-> Start with the quick start and take the defaults.  Let Inq.exe do the initial heavy lifting. Then after a few usages start looking deep into the data.
+> Start with the quick start and take the defaults.  Let $${\color{LimeGreen}Inq.exe}$$ do the initial heavy lifting. Then after a few usages start looking deep into the data.
 
 # 🚀 Key Features
 * There are no servers used. No web servers, no database severs. None.  Yet there is a full relational database thanks to SQLite and rich web pages based on html files local to the inq.exe directly to review results. This is done by design, to keep the data local and to keep it simple on the outside but very advance do the inside.
@@ -39,13 +41,13 @@ The best thing to do to get started is download Inq.exe with a double click and 
 
 # 🛠️ How it Works
 
-Inq.Uisitor runs scans on demand, with scheduling and Containers coming in a future beta.
+$${\color{LimeGreen}Inq.exe}$$ runs scans on demand, with scheduling and Containers coming in a future beta.
 
 ## Getting Credentionals
 
 ### There are Many Options for Logging into Azure
 
-Inq.exe and many options to login in to Azure.  The easiest way to go is to use the Azure CLI and inq.exe just uses your current login, you do not need to do anything if you are already using the Azure CLI, or you can easily set it up.  The Azure PowerShell is also supported.
+$${\color{LimeGreen}Inq.exe}$$ and many options to login in to Azure.  The easiest way to go is to use the Azure CLI and $${\color{LimeGreen}Inq.exe}$$ just uses your current login, you do not need to do anything if you are already using the Azure CLI, or you can easily set it up.  The Azure PowerShell is also supported.
 
 > [!TIP]
 > If you are using Azure CLI login with that to start out.  It is easy, you have nothing to do. Over time you may want to create your own Entra ID Client to get all the rights Inq.exe is able to take advanage of.
@@ -60,7 +62,7 @@ The Azure Command-Line Interface (CLI) is a cross-platform command-line tool to 
 
 #### The Az PowerShell Module
 
-Note Beta 1 is not reliable for this, at  least in our testing. It may work for you.
+Note Beta 1 is not reliable for this, at  least in our testing. It may work for you as we believe we are calling everything correctly.
 
 The Az PowerShell module is a set of cmdlets for managing Azure resources directly from PowerShell. [The Az PowerShell Module](https://learn.microsoft.com/en-us/powershell/azure/new-azureps-module-az?view=azps-13.0.0)
 
@@ -96,26 +98,26 @@ graph LR;
 
 # Inq.exe Database
 
-The Senserva Inq.Uisitor uses a relational database to store results. You can 100% ignore the database if you wish, or you can dig in an create your own reporting.  The data model is basic and after a few runs of Inq.exe it will make sense to you.
+The Senserva $${\color{LimeGreen}Inq.exe}$$ uses a relational database to store results. You can 100% ignore the database if you wish, or you can dig in an create your own reporting.  The data model is basic and after a few runs of Inq.exe it will make sense to you.
 
 > [!NOTE]
 > Digging into the Senserva Inq.exe database is for advanced users who want to create their own front-end to the data, something we encourage as long as license rights are followed.  But - at the same time - we have a great customizable UI out of the box, start there.  You can edit the text via published CSV files if you wish.
 
-## Senserva Data Level Integrations
+## $${\color{LimeGreen}Inq.exe}$$ Data Level Integrations
 
-Inq.exe is built with SQLite. SQLite is a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world. [More About Sqlite](https://www.sqlite.org/)
+$${\color{LimeGreen}Inq.exe}$$ is built with SQLite. SQLite is a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world. [More About Sqlite](https://www.sqlite.org/)
 
 It is easy to work with SQLite in Python and other languages. The Python SQLite3 module is used to integrate the SQLite database with Python. There is no need to install this module separately as it comes along with Python after the 2.5x version. [More About Python and Sqlite](https://docs.python.org/3/library/sqlite3.html) 
 
 SQLite can also be used with PowerShell to read Inq.Uisitor data.  [SQLite and PowerShell with SimplySql](https://www.powershellgallery.com/packages/SimplySql/2.0.2.70)
 
-# Custom Reporting
+# $${\color{LimeGreen}Inq.exe}$$ Custom Reporting
 
-## Inq.exe's Data Design
+## $${\color{LimeGreen}Inq.exe}$$ Data Design
 
 This is an quick overview of the main data tables used by Senserva to go give you an idea of the extent of our data.  Use a product like [DB Browser for SQLite](https://sqlitebrowser.org/) to full review the data format and content.  Or contact us we are glad to help.  Our data model is simple and the data is rich, take a peek behind the scenes with the DB Browsers when you get a minute.
 
-You do not need to know the database to run Inq.exe.  These notes are for people who want to create their own customizations. Our tables also contain rich set of Json data as well so is a lot of data you can use to create custom solutions.  Or you can just use our UI, it is pretty good :)
+You do not need to know the database to run $${\color{LimeGreen}Inq.exe}$$.  These notes are for people who want to create their own customizations. Our tables also contain rich set of Json data as well so is a lot of data you can use to create custom solutions.  Or you can just use our UI, it is pretty good :)
 
 ```mermaid
 
@@ -229,10 +231,10 @@ class CountTrackers["Count Trackers"]{
 > [!CAUTION]
 > Please note that while sharing of Senserva output data easy to do since its in external files, it is important to handle Senserva data with care. Ensure you verify the recipient's identity and always use secure methods for sharing the information.
 > 
-# Changing Content with the Inq.exe CSV file
+# Changing Content with the $${\color{LimeGreen}Inq.exe}$$ CSV file
 
 Senserva provides an Excel Compliant file that you can easily edit to control output text.  The file is created after the first run of Inq.exe (the first run includes the install phase). So to use this CSV data just run 2 scans, the 2nd one is fast because we only look for changes since the last scan.
-
+Include file here
 Here is a quick peek (the CSV file has nearly 200 entries):
 
 AuditGroup.DirectoryRole | In Microsoft Entra ID if another administrator or non-administrator needs to manage Microsoft Entra resources you assign them a Microsoft Entra role that provides the permissions they need. For example you can assign roles to allow adding or changing users resetting user passwords managing user licenses or managing domain names | https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference |
@@ -250,11 +252,13 @@ Runtimes for Senserva - early beta please contact us for assistance and informat
 
 ## Known Bugs
 
-## 🚧 Feature Roadmap
+## 🚧 $${\color{LimeGreen}Inq.exe}$$ Feature Roadmap
 
 * Scheduling
-* Inq.exe in Containers
-* Inq.exe in Powershell CommandLets
+* $${\color{LimeGreen}Inq.exe}$$ in Containers
+* $${\color{LimeGreen}Inq.exe}$$ in Powershell CommandLets
+* Drift Managent
+  
 
 ## 💬 FAQ
 
@@ -270,7 +274,7 @@ Runtimes for Senserva - early beta please contact us for assistance and informat
 
 Senserva supports many types of login techniques, but the easiest way to get start is with the Azure Cli. [https://github.com/MicrosoftDocs/azure-docs-cli/blob/main/docs-ref-conceptual/install-azure-cli-windows.md](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) or https://learn.microsoft.com/en-us/dotnet/azure/install-azure-cli 
 
-# 📄 Inq.exe License
+# 📄 $${\color{LimeGreen}Inq.exe}$$ License
 Please review the SenservaLicense file before using this software. And note These run times only for END USER USE ONLY. They cannot be used within other products or be embedded in paid services without Senserva's express written permission. Senserva has an established OEM program with a scalable pricing model that works for companies of all sizes.  Please contact us for use of these, and all our works, as part of your products or to be embedded in your services. Also be sure to read the text around PROVIDED "AS IS" AND WITH ALL FAULTS AND DEFECTS WITHOUT WARRANTY OF ANY KIND.
 
 Please note these run times are not yet ready for use, we are testing out the builds etc.
