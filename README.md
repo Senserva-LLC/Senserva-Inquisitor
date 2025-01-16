@@ -217,6 +217,10 @@ class CountTrackers["Count Trackers"]{
       
 
 ```
+
+> [!CAUTION]
+> Please note that while is great to share, sharing of the Senserva data should be done with caution. Be sure who you are giving it to, and be sure to share via secured methods.
+> 
 # Changing Content with the Senserva CSV file
 
 Senserva provides an Excel Compliant file that you can easily edit to control output text.  The file is created after the first run of Inq.exe (the first run includes the install phase). So to use this CSV data just run 2 scans, the 2nd one is fast because we only look for changes since the last scan.
