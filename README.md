@@ -13,7 +13,7 @@ Senserva built this product to automate its own use of Entra ID, conditional acc
 ⭐ Please Star us on GitHub — it motivates all of use! (Thank you!!)  Follow us too, there are frequent updates.
 
 > [!IMPORTANT]
-> **This is Beta 1, it will return great data but we need feedback. Plesae create Issues for all requests. Thank you - the Senserva Team. **
+> **This is Beta 1, it will return great data, but it may not be accurate just like ChatGPT, but we will keep testing and make our data accurate.  And we need feedback. Plesae create Issues for all requests. Thank you - the Senserva Team. **
 
 # ✨Quick Start
 
