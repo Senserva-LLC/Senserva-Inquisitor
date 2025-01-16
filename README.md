@@ -101,7 +101,7 @@ graph LR;
 The Senserva $${\color{LimeGreen}Inq.exe}$$ uses a relational database to store results. You can 100% ignore the database if you wish, or you can dig in an create your own reporting.  The data model is basic and after a few runs of Inq.exe it will make sense to you.
 
 > [!NOTE]
-> Digging into the Senserva Inq.exe database is for advanced users who want to create their own front-end to the data, something we encourage as long as license rights are followed.  But - at the same time - we have a great customizable UI out of the box, start there.  You can edit the text via published CSV files if you wish.
+> Digging into the Senserva  $${\color{LimeGreen}Inq.exe}$$ database is for advanced users who want to create their own front-end to the data, something we encourage as long as license rights are followed.  But - at the same time - we have a great customizable UI out of the box, start there.  You can edit the text via published CSV files if you wish.
 
 ## ⚙️ $${\color{LimeGreen}Inq.exe}$$ Data Level Integrations
 
@@ -235,15 +235,8 @@ class CountTrackers["Count Trackers"]{
 
 Senserva provides an Excel Compliant file that you can easily edit to control output text.  The file is created after the first run of Inq.exe (the first run includes the install phase). So to use this CSV data just run 2 scans, the 2nd one is fast because we only look for changes since the last scan.
 Include file here
-Here is a quick peek (the CSV file has nearly 200 entries):
 
-AuditGroup.DirectoryRole | In Microsoft Entra ID if another administrator or non-administrator needs to manage Microsoft Entra resources you assign them a Microsoft Entra role that provides the permissions they need. For example you can assign roles to allow adding or changing users resetting user passwords managing user licenses or managing domain names | https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference |
-
-AuditGroup.Device        | The goal of Microsoft Entra registered - also known as Workplace joined - devices is to provide your users with support for bring your own device (BYOD) or mobile device scenarios. In these scenarios a user can access your organization's resources using a personal device.                                                          | https://learn.microsoft.com/en-us/entra/identity/devices/concept-device-registration             |
-AuditGroup.Group         | With Microsoft Entra groups you can grant access and permissions to a group of users instead of for each individual user. Limiting access to Microsoft Entra resources to only those users who need access is one of the core security principles of Zero Trust.                                                                          | https://learn.microsoft.com/en-us/entra/fundamentals/concept-learn-about-groups                  |
-
-AuditGroup.Location      | Determines the country a user is operating from which can affect license availability feature availability data center location and data governance                                                                                                                                                                                        | https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-assignment-network   |
-| AuditGroup.RiskyUser     | A user account that is considered to be at risk of compromise                                                                                                                                                                                                                                                                             
+                  [Example PDF](PDFs/example.pdf)                               
 
 ## Web Pages
 
