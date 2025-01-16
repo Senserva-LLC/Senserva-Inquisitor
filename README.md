@@ -2,15 +2,17 @@
 
 # The Senserva Inq.Uisitor
 
-*** Please NOTE this is not yet ready to download, it will be in the next 24 hours ***
+> [!WARNING]
+> *** Please NOTE this is not yet ready to download, it will be in the next 24 hours ***
+
+
+⭐ Please Star us on GitHub — it motivates all of use! (Thank you!!)  Follow us too, there are frequent updates.
 
 This is Beta 1 of the Senserva Inq.Uisitor, a free product designed to make it easy to know the security state of all the Entra IDs a technical team supports.  Inq.exe can be used by either IT teams or Security teams.  
 
 You can just look for top issues or you can drill deep on the the state of each Entra ID you manage, the data and interface support both. You can also easliy edit the content of the Inq.exe user interface or create your own.
 
 Senserva built this product to automate its own use of Entra ID, conditional access usage, log monitoring and configuration drift management.  As we showed to more people we realized our best next step is to make it freely available.  
-
-⭐ Please Star us on GitHub — it motivates all of use! (Thank you!!)  Follow us too, there are frequent updates.
 
 > [!IMPORTANT]
 > **This is Beta 1, it will return great data, but it may not be accurate just like ChatGPT, but we will keep testing and make our data accurate.  And we need feedback. Plesae create Issues for all requests. Thank you - the Senserva Team. **
