@@ -19,8 +19,7 @@ Please see our the [Inq.exe Wiki](https://github.com/Senserva-LLC/Senserva-Runti
 
 ⭐ Please Star us on GitHub — it motivates all of use! (Thank you!!)  Follow us too, there are frequent updates.
 
-# ✨ Key Features
-
+# 🚀 Key Features
 * There are no servers used. No web servers, no database severs. None.  Yet there is a full releational database thanks to SQLite and rich web pages based on html files local to the inq.exe directly to review results. This is done by design, to keep the data local and to keep it simple on the outside but very advance do the inside.
 * Just download the Signed Inq.exe and go, setup is complete automated. 
 * Each time you run an scan only changes are recorded in the database.  You can run inq.exe all you want and only new data is saved.
@@ -33,14 +32,14 @@ Please see our the [Inq.exe Wiki](https://github.com/Senserva-LLC/Senserva-Runti
 * Trends stored in the data. Senserva data is deduped and also contains a history.  So it does not grow too large, but at the same time you can observe changes over time.
 * Source code available
 
-# Quick Start
+# ✨Quick Start
 
 The best thing to do to get started is download Inq.exe with a double click and run it. The Senserva Inq.Uisitor as many options and ways to work with, but things can come as you learn more about Inq.exe. Inq.exe installs itself, just run it and the first time it will create the database and browser files it needs in the directory you are running in.  That's it, Inq.exe will figure things on its own from there.
 
 > [!TIP]
 > Start with the quick start and take the defaults.  Let Inq.exe do the initial heavy lifting. Then afer a few usages start looking deep into the data.
 
-# How it Works
+# 🛠️ How it Works
 
 Inq.Uisitor runs scans on demand, with scheduling and Containers comming in a future beta.
 
@@ -242,13 +241,13 @@ Runtimes for Senserva - early beta please contact us for assistance and informat
 
 ## Known Bugs
 
-## What is Coming Next
+## 🚧 Feature Roadmap
 
 * Scheduling
 * Inq.exe in Containers
 * Inq.exe in Powershell CommandLets
 
-## FAQ
+## 💬 FAQ
 
 * Hobby 1
   * Nested Hobby 1
@@ -272,11 +271,14 @@ https://learn.microsoft.com/en-us/powershell/azure/uninstall-az-ps?view=azps-13.
 
 https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/identity/Azure.Identity/TROUBLESHOOTING.md#troubleshoot-azurepowershellcredential-authentication-issues
 
-# Usage Rights
+# 📄 License
 Please review the SenservaLicnese file before using this software. And note These run times only for END USER USE ONLY. They cannot be used within other products or be embedded in paid services without Senserva's express written permission. Senserva has an established OEM program with a scalable pricing model that works for companies of all sizes.  Please contact us for use of these,and all our works, as part of your products or to be embedded in your services. Also be sure to read the text around PROVIDED "AS IS" AND WITH ALL FAULTS AND DEFECTS WITHOUT WARRANTY OF ANY KIND.
 
 Please note these run times are not yet ready for use, we are testing out the builds etc.
 
+# 🤝 Contributing
+
+Senserva is growing quickly and we would love more people to get involved in this project. Whether you have ideas to share, bugs to report, or features  you want to see, your contributions are welcome!
 
 # About Senserva
 
