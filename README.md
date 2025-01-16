@@ -10,14 +10,17 @@ You can just look for top issues or you can drill deep on the the state of each 
 
 Senserva built this product to automate its own use of Entra ID, conditional access usage, log monitoring and configuration drift management.  As we showed to more people we realized our best next step is to make it freely available.  
 
+⭐ Please Star us on GitHub — it motivates all of use! (Thank you!!)  Follow us too, there are frequent updates.
+
 > [!IMPORTANT]
 > **This is Beta 1, it will return great data but we need feedback. Plesae create Issues for all requests. Thank you - the Senserva Team. **
 
-Inq.Uisitor, or inq.exe, runs out of the box, sets itself up automatically and creates a rich set of interactive web pages.  It also has a broad set of parameters and CSV files to neable customizatoins. Inq.exe uses a local SQL database (server less SQLIte) to store data.  This database can be used to easily create custom reports.
+# ✨Quick Start
 
-Please see our the [Inq.exe Wiki](https://github.com/Senserva-LLC/Senserva-Runtime/wiki) for more Detailed Screen Shots and Data Examples.
+The best thing to do to get started is download Inq.exe with a double click and run it. The Senserva Inq.Uisitor as many options and ways to work with, but things can come as you learn more about Inq.exe. Inq.exe installs itself, just run it and the first time it will create the database and browser files it needs in the directory you are running in.  That's it, Inq.exe will figure things on its own from there.
 
-⭐ Please Star us on GitHub — it motivates all of use! (Thank you!!)  Follow us too, there are frequent updates.
+> [!TIP]
+> Start with the quick start and take the defaults.  Let Inq.exe do the initial heavy lifting. Then afer a few usages start looking deep into the data.
 
 # 🚀 Key Features
 * There are no servers used. No web servers, no database severs. None.  Yet there is a full releational database thanks to SQLite and rich web pages based on html files local to the inq.exe directly to review results. This is done by design, to keep the data local and to keep it simple on the outside but very advance do the inside.
@@ -32,12 +35,6 @@ Please see our the [Inq.exe Wiki](https://github.com/Senserva-LLC/Senserva-Runti
 * Trends stored in the data. Senserva data is deduped and also contains a history.  So it does not grow too large, but at the same time you can observe changes over time.
 * Source code available
 
-# ✨Quick Start
-
-The best thing to do to get started is download Inq.exe with a double click and run it. The Senserva Inq.Uisitor as many options and ways to work with, but things can come as you learn more about Inq.exe. Inq.exe installs itself, just run it and the first time it will create the database and browser files it needs in the directory you are running in.  That's it, Inq.exe will figure things on its own from there.
-
-> [!TIP]
-> Start with the quick start and take the defaults.  Let Inq.exe do the initial heavy lifting. Then afer a few usages start looking deep into the data.
 
 # 🛠️ How it Works
 
