@@ -41,7 +41,7 @@ The Senserva $${\color{LimeGreen}Inquisitor}$$ (aka $${\color{LimeGreen}Inq.exe}
 
 # 🛠️ How $${\color{LimeGreen}Inquisitor}$$ Works
 
-$${\color{LimeGreen}Inq.exe}$$ runs scans on demand, with scheduling and Containers coming in a future beta.
+$${\color{LimeGreen}Inquisitor}$$ runs scans on demand, with scheduling and Containers coming in a future beta.
 
 ## Getting Credentionals
 
