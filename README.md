@@ -66,7 +66,7 @@ The Senserva $${\color{LimeGreen}Inquisitor}$$ (aka $${\color{LimeGreen}Inq.exe}
 
 $${\color{LimeGreen}Inquisitor}$$ runs scans on demand, with scheduling and Containers coming in a future beta.
 
-## Getting Credentionals
+## Getting Credentials
 
 ### There are Many Options for Logging into Azure
 
