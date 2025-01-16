@@ -103,7 +103,7 @@ The Senserva $${\color{LimeGreen}Inq.exe}$$ uses a relational database to store 
 > [!NOTE]
 > Digging into the Senserva Inq.exe database is for advanced users who want to create their own front-end to the data, something we encourage as long as license rights are followed.  But - at the same time - we have a great customizable UI out of the box, start there.  You can edit the text via published CSV files if you wish.
 
-## $${\color{LimeGreen}Inq.exe}$$ Data Level Integrations
+## ⚙️ $${\color{LimeGreen}Inq.exe}$$ Data Level Integrations
 
 $${\color{LimeGreen}Inq.exe}$$ is built with SQLite. SQLite is a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world. [More About Sqlite](https://www.sqlite.org/)
 
@@ -283,7 +283,7 @@ Please note these run times are not yet ready for use, we are testing out the bu
 
 Senserva is growing quickly and we would love more people to get involved in this project. Whether you have ideas to share, bugs to report, or features  you want to see, your contributions are welcome!
 
-# About Senserva
+# 💡About Senserva
 
 The Senserva team is built with a team Microsoft Security Industry leaders including former Microsoft employees. Senserva believes an essential component of computer security is the efficient application of security tools and automated processes.
 
