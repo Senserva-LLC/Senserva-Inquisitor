@@ -41,12 +41,12 @@ The Senserva $${\color{LimeGreen}Inquisitor}$$ (aka $${\color{LimeGreen}Inq.exe}
 
 # 🌟 $${\color{LimeGreen}Inquisitor}$$ What We Manage
 
-* Extensive Audits
+* Extensive Audit and Monitoring
   * Directory Logs
   * Signin Logs
   * Conditional Access Rules and Usage
   * Users
-* Basic Audits
+* Basic Audit and Monitoring
   * Service Principals
   * Devices
   * Groups
@@ -54,12 +54,12 @@ The Senserva $${\color{LimeGreen}Inquisitor}$$ (aka $${\color{LimeGreen}Inq.exe}
   * Risky Users
   * Risk Detections
 * Next
-  * More ServicePrincipalAudit, GroupsAudit, Roles, Risky Users, Risk Detections
+  * More Audit and Monitoring for Service Principal Audit, Groups Audit, Roles, Risky Users, Risk Detections
   * Add
-    * SecureScoreAudit
-    * ServicePrincipalRiskDetectionsAudit
-    * RiskyServicePrincipalsAudit
-    * PimAudit
+    * Secure Score Audit and Monitoring
+    * Service Principal Risk Detections Audit and Monitoring
+    * Risky Service Principals Audit and Monitoring
+    * PIM Audit and Monitoring
 
 # 🛠️ How $${\color{LimeGreen}Inquisitor}$$ Works
 
@@ -98,18 +98,45 @@ based on Senserva's but make your own. This is an advanced usage and it enables 
 
 ## $${\color{LimeGreen}Inquisitor}$$ In Action
 
+## Logging
+
+$${\color{LimeGreen}Inquisitor}$$ has detailed logging, stored in the Log subdirectory.  The scan $${\color{LimeGreen}Inquisitor}$$ will show select data so you can easily monitor progress, but all the data on the the UI and much more will be in the logs.  
+
+A quick review of the logs gives you an indepth review of what $${\color{LimeGreen}Inquisitor}$$ is doing, or the issues may have.
+
+*  ...
+*  2025-01-16 11:40:36.307 -06:00 [INF] Senserva.Scanner.AuditManager  Senserva "EntraSigninLogs" AuditCompleted
+*  2025-01-16 11:40:36.310 -06:00 [INF] Senserva.Scanner.AuditManager  Senserva "Devices" EnableAudit
+*  2025-01-16 11:40:38.795 -06:00 [INF] Senserva.Scanner.AuditManager  Senserva "Devices" AuditCompleted
+*  2025-01-16 11:40:38.894 -06:00 [INF] Senserva.Scanner.AuditManager  Senserva "RiskyUsers" EnableAudit
+*  2025-01-16 11:41:03.604 -06:00 [ERR] Senserva.Scanner.SenservaGraph  Senserva "SignInPreferences" Request Authorization failed
+*  ...
+
+## Working with the Results
+
+There are multiple ways to work with the results from $${\color{LimeGreen}Inquisitor}$$
+
+* Using our advance UI to work with the data, sort it, filter and export it
+* Export the data to CSV and us Microsoft Excel to work with the data
+* Export Json from the UI and create you own views with the tools you are most comfortable with
+* Directly access the database with your own application in Python for example. Chart it any way you wish
+
+## Logic and Dataflow
+
 ```mermaid
 
 graph LR;
-    Login --> read-azure[Read Azure] --> Review-Azure-State[Review Azure State] --> Database[(SQLite)] --> Create-Webpages[Create Webpages];
+    Login --> read-azure[Read Azure] --> Review-Azure-State[Review Azure State] --> Database[(SQLite)] --> Create-Webpages[Create Inquisitor Webpages];
     Azure-Cli-Client[Azure Cli] -->Login;
     Senserva-EntraID-Client[Senserva Entra Client] -->Login;
     Customer-EntraID-Client[Customer Entra Client] -->Login;
     Powershell-Cli-Client[Azure PowerShell Client] -->Login;
     User-Customized-Strings[Customized Strings] --> CSV-Importer[CSV Importer];
-    CSV-Importer --> Database[(SQLite)]
-    Create-Webpages --> Json;
-    Database[(SQLite)] --> Custom-Solutions[Custom Solutions]
+    CSV-Importer --> Database[(SQLite)];
+    Create-Webpages --> Exporter --> Json;
+    Create-Webpages --> Exporter --> CSV-Excel;
+    Create-Webpages --> Browser;
+    Database[(SQLite)] --> Custom-Solutions[Custom Solutions];
 style Login fill:#80BC00,color:#000080,font-size:16pt
 style Customer-EntraID-Client fill:#46C2CB,color:#000080,font-size:16pt
 style Azure-Cli-Client fill:#46C2CB,color:#000080,font-size:16pt
@@ -118,12 +145,16 @@ style Powershell-Cli-Client fill:#46C2CB,color:#000080,font-size:16pt
 style CSV-Importer fill:#80BC00,color:#000080,font-size:16pt
 style Create-Webpages fill:#80BC00,color:#000080,font-size:16pt
 style Database fill:#000080,color:#80BC00,font-size:16pt
-style Custom-Solutions fill:#80BC00,color:#000080,font-size:16pt
+style Custom-Solutions fill:#000080,color:#80BC00,font-size:16pt
 style Create-Webpages fill:#80BC00,color:#000080,font-size:16pt
 style Review-Azure-State fill:#80BC00,color:#000080,font-size:16pt
 style read-azure fill:#80BC00,color:#000080,font-size:16pt
 style User-Customized-Strings fill:#80BC00,color:#000080,font-size:16pt
 style Json fill:#000080,color:#80BC00,font-size:16pt
+style CSV-Excel fill:#000080,color:#80BC00,font-size:16pt
+style Exporter fill:#80BC00,color:#000080,font-size:16pt
+style Browser fill:#000080,color:#80BC00,font-size:16pt
+
 ```
 
 
