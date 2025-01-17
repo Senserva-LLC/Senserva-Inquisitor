@@ -60,7 +60,6 @@ The Senserva $${\color{LimeGreen}Inquisitor}$$ (aka $${\color{LimeGreen}Inq.exe}
     * ServicePrincipalRiskDetectionsAudit
     * RiskyServicePrincipalsAudit
     * PimAudit
-  
 
 # 🛠️ How $${\color{LimeGreen}Inquisitor}$$ Works
 
