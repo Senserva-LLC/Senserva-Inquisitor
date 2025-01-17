@@ -20,7 +20,6 @@ You can just look for top issues or you can drill deep on the state of each Entr
 
 The best thing for a $${\color{Orange}Quick Start}$$ to do to get started is download $${\color{LimeGreen}Inq.exe}$$ with a double click and run it. It has a digital signature so your AV should be OK with it. If not please let us know right away.
  
-
 The Senserva $${\color{LimeGreen}Inquisitor}$$ (aka $${\color{LimeGreen}Inq.exe}$$) as many options and ways to work with, but things can come as you learn more about $${\color{LimeGreen}Inq.exe}$$. $${\color{LimeGreen}Inq.exe}$$ installs itself, just run it and the first time it will create the database and browser files it needs in the directory you are running in.  That's it, $${\color{LimeGreen}Inq.exe}$$ will figure things on its own from there.
 
 > [!TIP]
@@ -176,9 +175,13 @@ It is easy to work with SQLite in Python and other languages. The Python SQLite3
 
 SQLite can also be used with PowerShell to read Inq.Uisitor data.  [SQLite and PowerShell with SimplySql](https://www.powershellgallery.com/packages/SimplySql/2.0.2.70)
 
-# $${\color{LimeGreen}Inquisitor}$$ Custom Reporting
+# Easily Extend$${\color{LimeGreen}Inquisitor}$$
 
-## $${\color{LimeGreen}Inquisitor}$$ Data Design
+## $${\color{LimeGreen}Inquisitor}$$ Json Design
+
+TODO show enough Json here to let people know what we do
+
+## $${\color{LimeGreen}Inquisitor}$$ Database Design
 
 This is an quick overview of the main data tables used by Senserva to go give you an idea of the extent of our data.  Use a product like [DB Browser for SQLite](https://sqlitebrowser.org/) to full review the data format and content.  Or contact us we are glad to help.  Our data model is simple and the data is rich, take a peek behind the scenes with the DB Browsers when you get a minute.
 
@@ -317,7 +320,6 @@ Runtimes for Senserva - early beta please contact us for assistance and informat
 * $${\color{LimeGreen}Inq.exe}$$ in Powershell CommandLets
 * Drift Managent
   
-
 ## 💬 ${\color{LimeGreen}Inquisitor}$$ FAQ
 
 * Hobby 1
