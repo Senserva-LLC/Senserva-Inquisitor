@@ -156,7 +156,7 @@ style Json fill:#000080,color:#80BC00,font-size:16pt
 style CSV-Excel fill:#000080,color:#80BC00,font-size:16pt
 style Exporter fill:#80BC00,color:#000080,font-size:16pt
 style Browser fill:#000080,color:#80BC00,font-size:16pt
-
+linkStyle default stroke:#80BC00
 ```
 
 
