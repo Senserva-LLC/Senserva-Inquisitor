@@ -102,6 +102,8 @@ based on Senserva's but make your own. This is an advanced usage and it enables 
 
 $${\color{LimeGreen}Inquisitor}$$ has detailed logging, stored in the Log subdirectory.  The scan $${\color{LimeGreen}Inquisitor}$$ will show select data so you can easily monitor progress, but all the data on the the UI and much more will be in the logs.  
 
+Logs/SenservaLogFile20250116 is an example log name.  The numbers break out to the year and the day, and the logs have automatic roll over so they stay managable.
+
 A quick review of the logs gives you an indepth review of what $${\color{LimeGreen}Inquisitor}$$ is doing, or the issues may have.
 
 *  ...
@@ -118,8 +120,8 @@ There are multiple ways to work with the results from $${\color{LimeGreen}Inquis
 
 * Using our advance UI to work with the data, sort it, filter and export it
 * Export the data to CSV and us Microsoft Excel to work with the data
-* Export Json from the UI and create you own views with the tools you are most comfortable with
-* Directly access the database with your own application in Python for example. Chart it any way you wish
+* Export Json from the UI and create you own views with your viewing tools
+* Directly access the database with your own application, possibly in Python
 
 ## Logic and Dataflow
 
