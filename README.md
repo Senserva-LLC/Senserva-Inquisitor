@@ -127,7 +127,7 @@ There are multiple ways to work with the results from $${\color{LimeGreen}Inquis
 
 ```mermaid
 
-graph LR;
+graph TD;
     Login --> read-azure[Read Azure] --> Review-Azure-State[Review Azure State] --> Database[(SQLite)] --> Create-Webpages[Create Inquisitor Webpages];
     Azure-Cli-Client[Azure Cli] -->Login;
     Senserva-EntraID-Client[Senserva Entra Client] -->Login;
