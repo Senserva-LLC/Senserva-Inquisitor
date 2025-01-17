@@ -177,6 +177,10 @@ SQLite can also be used with PowerShell to read Inq.Uisitor data.  [SQLite and P
 
 # Easily Extend$${\color{LimeGreen}Inquisitor}$$
 
+## $${\color{LimeGreen}Inquisitor}$$ in Excel
+
+TODO
+
 ## $${\color{LimeGreen}Inquisitor}$$ Json Design
 
 TODO show enough Json here to let people know what we do
