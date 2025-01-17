@@ -18,7 +18,7 @@ You can just look for top issues or you can drill deep on the state of each Entr
 > [!IMPORTANT]
 > **This is Beta 1, it will return great data, but it may not always be accurate.  We need feedback. Please create Issues for all requests. Thank you - the Senserva Team. **
 
-# ✨ $${\color{LimeGreen}Inquisitor}$$ No Setup Needed
+# ⚡️ $${\color{LimeGreen}Inquisitor}$$ No Setup Needed
 
 The best thing for a $${\color{Orange}Quick Start}$$ to do to get started is download $${\color{LimeGreen}Inq.exe}$$ with a double click and run it. It has a digital signature so your AV should be OK with it. If not please let us know right away.
  
@@ -26,6 +26,8 @@ The Senserva $${\color{LimeGreen}Inquisitor}$$ (aka $${\color{LimeGreen}Inq.exe}
 
 > [!TIP]
 > Start with the quick start and take the defaults.  Let $${\color{LimeGreen}Inq.exe}$$ do the initial heavy lifting. Then after a few usages start looking deep into the data.
+
+Table of contents
 
 # 🚀 Key $${\color{LimeGreen}Inquisitor}$$ Features
 * There are no servers used. No web servers, no database severs. None.  Yet there is a full relational database thanks to SQLite and rich web pages based on html files local to the inq.exe directly to review results. This is done by design, to keep the data local and to keep it simple on the outside but very advance do the inside.
