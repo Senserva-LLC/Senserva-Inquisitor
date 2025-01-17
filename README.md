@@ -27,7 +27,9 @@ The Senserva $${\color{LimeGreen}Inquisitor}$$ (aka $${\color{LimeGreen}Inq.exe}
 > [!TIP]
 > Start with the quick start and take the defaults.  Let $${\color{LimeGreen}Inq.exe}$$ do the initial heavy lifting. Then after a few usages start looking deep into the data.
 
-Table of contents
+Table of contents - TODO
+
+🐳 Docker - TODO
 
 # 🚀 Key $${\color{LimeGreen}Inquisitor}$$ Features
 * There are no servers used. No web servers, no database severs. None.  Yet there is a full relational database thanks to SQLite and rich web pages based on html files local to the inq.exe directly to review results. This is done by design, to keep the data local and to keep it simple on the outside but very advance do the inside.
@@ -321,20 +323,17 @@ Runtimes for Senserva - early beta please contact us for assistance and informat
 
 ## ${\color{LimeGreen}Inquisitor}$$ Known Bugs
 
-## 🚧 ${\color{LimeGreen}Inquisitor}$$ Feature Roadmap
+## 🗺 ${\color{LimeGreen}Inquisitor}$$ Roadmap
 
 * Scheduling
-* $${\color{LimeGreen}Inq.exe}$$ in Containers
-* $${\color{LimeGreen}Inq.exe}$$ in Powershell CommandLets
+* Remediation
+* Containers
+* Powershell cmdlets 
 * Drift Managent
-  
-## 💬 ${\color{LimeGreen}Inquisitor}$$ FAQ
+* Patch Management
+    
+##❓${\color{LimeGreen}Inquisitor}$$ FAQ
 
-* Hobby 1
-  * Nested Hobby 1
-    * Sub-nested Hobby 1
-* Hobby 2
-* Hobby 3
 
 # Beta 1 Release Notes
 
