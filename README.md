@@ -18,7 +18,7 @@ You can just look for top issues or you can drill deep on the state of each Entr
 > [!IMPORTANT]
 > **This is Beta 1, it will return great data, but it may not always be accurate.  We need feedback. Please create Issues for all requests. Thank you - the Senserva Team. **
 
-# ⚡️ $${\color{LimeGreen}Inquisitor}$$ No Setup Needed
+# ⚡️ $${\color{LimeGreen}Inquisitor}$$ Setup free Install
 
 The best thing for a $${\color{Orange}Quick Start}$$ to do to get started is download $${\color{LimeGreen}Inq.exe}$$ with a double click and run it. It has a digital signature so your AV should be OK with it. If not please let us know right away.
 
