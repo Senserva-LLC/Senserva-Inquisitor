@@ -5,7 +5,7 @@
 # $${\color{LimeGreen}The} {\color{LimeGreen}Senserva} {\color{LimeGreen}Inquisitor}$$
 
 > [!WARNING]
-> *** Please NOTE this is not yet ready to download, it will be in the next 24 hours ***
+> *** Please NOTE this is not yet ready to download, it will be in the next 24 hours or so ***
 
 🚧 Work in Progress (WIP)
 
@@ -21,6 +21,8 @@ You can just look for top issues or you can drill deep on the state of each Entr
 # ⚡️ $${\color{LimeGreen}Inquisitor}$$ Setup Free Install
 
 The best thing for a $${\color{Orange}Quick Start}$$ to do to get started is download $${\color{LimeGreen}Inq.exe}$$ with a double click and run it. It has a digital signature so your AV should be OK with it. If not please let us know right away.
+
+You do not have to register, log in or do anything other than review, agree to and follow our EULA.
 
 By default $${\color{LimeGreen}Inq.exe}$$ trys various logins automaticly to find the best one for you. Or you can select your login mode with a parameter.
  
