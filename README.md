@@ -183,7 +183,7 @@ It is easy to work with SQLite in Python and other languages. The Python SQLite3
 
 SQLite can also be used with PowerShell to read Inq.Uisitor data.  [SQLite and PowerShell with SimplySql](https://www.powershellgallery.com/packages/SimplySql/2.0.2.70)
 
-# Easily Extend$${\color{LimeGreen}Inquisitor}$$
+# Easily Extend $${\color{LimeGreen}Inquisitor}$$
 
 ## $${\color{LimeGreen}Inquisitor}$$ in Excel
 
