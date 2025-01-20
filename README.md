@@ -15,6 +15,8 @@ $${\color{LimeGreen}Senserva Inquisitor}$$ to just look for top issues or drill 
 
 ⭐ Please Star/Follow/Watch us on GitHub — it motivates all of us! And it keeps you informed about changes as well. (Thank you!!)  We also want your input so please files Issues for any questions or input.
 
+![Startup page](https://github.com/Senserva-LLC/Senserva-Inquisitor/blob/main/screen1.png)
+
 > [!IMPORTANT]
 > **This is Beta 1, it will return great data, but it may not always be accurate.  We need feedback. Please create Issues for all requests. Thank you - the Senserva Team. **
 
