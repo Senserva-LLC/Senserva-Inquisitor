@@ -13,7 +13,7 @@ This is **Beta 1** of the $${\color{LimeGreen}Senserva Inquisitor}$$, a free pro
 
 You can just look for top issues or you can drill deep on the state of each Entra ID you manage, the data and interface support both. You can also easily edit the content of the  $${\color{LimeGreen}Inq.exe}$$ user interface or create your own.  We support Microsoft Excel, Json and relational databases.
 
-⭐ Please Star us on GitHub — it motivates all of use! (Thank you!!) Follow us too, there are frequent updates.
+⭐ Please Star/Follow/Watch us on GitHub — it motivates all of us! And it keeps you informed about changes as well. (Thank you!!) 
 
 > [!IMPORTANT]
 > **This is Beta 1, it will return great data, but it may not always be accurate.  We need feedback. Please create Issues for all requests. Thank you - the Senserva Team. **
