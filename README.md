@@ -7,6 +7,10 @@
 > [!WARNING]
 > *** Please NOTE this is not yet ready to download, it will be in the next 24 hours or so ***
 
+
+[video](https://github.com/user-attachments/assets/2728a823-ee68-4589-8b0a-a1b5097bb226)
+
+
 🚧 Work in Progress (WIP)
 
 This is **Beta 1** of the $${\color{LimeGreen}Inquisitor}$$, a free product designed to make it easy to know the security state of all the Entra IDs a technical team supports.  $${\color{LimeGreen}Inq.exe}$$ can be used by either IT teams or Security teams.  This release is for Windows, Contain version coming next.
