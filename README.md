@@ -167,7 +167,7 @@ style Browser fill:#000080,color:#80BC00,font-size:16pt
 linkStyle default stroke:#80BC00
 ```
 
-By default CSV files create are Audit.csv (Clean, reviewed), Nodes.csv (Raw Azure data), Edges.csv (connections between Azure data), ConditionalAccessCounts.csv (usage counts), and SigninCounts.csv (extensive log reviews). Users can create their own custom CSV files via the html file based user interface.  Html files include
+By default CSV files create are Audit.csv (Clean, reviewed), Nodes.csv (Raw Azure data), Edges.csv (connections between Azure data), ConditionalAccessCounts.csv (usage counts), and SigninCounts.csv (extensive log reviews). Users can create their own custom CSV files via the html file based user interface. This data is the same data that is in the database, it is just presented this way so it can be viewed in things like Microsoft Excel.
 
 # $${\color{LimeGreen}Inquisitor}$$ Database
 
