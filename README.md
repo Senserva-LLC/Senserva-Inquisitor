@@ -6,7 +6,7 @@
 
 ![Clip6](https://github.com/user-attachments/assets/bae008ae-8830-41ab-b739-c61bd454b5c5)
 
-This is **Beta 1** of the $${\color{LimeGreen}Inquisitor}$$, a free product designed to make it easy to know the security state of all the Entra IDs a technical team supports.  $${\color{LimeGreen}Inq.exe}$$ can be used by either IT teams or Security teams.  This release is for Windows, Contain version coming next.
+This is **Beta 1** of the $${\color{LimeGreen}Inquisitor}$$, a free product designed to make it easy to know the security state of all the Entra IDs a technical team supports.  $${\color{LimeGreen}Inq.exe}$$ can be used by either IT teams or Security teams.  This release is for Windows, Linux Container version coming next.
 
 $${\color{LimeGreen}Inquisitor}$$ to just look for top issues or drill deep on the state of each Entra ID you manage, the data and interface support both. You can also easily edit the content of the  $${\color{LimeGreen}Inq.exe}$$ user interface or create your own.  We support Microsoft Excel, Json and relational databases. There can be a lot of data if you are running in "Info" mode.
 
