@@ -4,13 +4,7 @@
 
 # $${\color{LimeGreen}The} {\color{LimeGreen}Senserva} {\color{LimeGreen}Inquisitor}$$
 
-> [!WARNING]
-> *** Please NOTE this is not yet ready to download, it will be in the next 24 hours or so ***
-
 ![Clip3](https://github.com/user-attachments/assets/5dcfcdc0-a276-46c5-8357-1f9e34aff946)
-
-
-🚧 Work in Progress (WIP)
 
 This is **Beta 1** of the $${\color{LimeGreen}Inquisitor}$$, a free product designed to make it easy to know the security state of all the Entra IDs a technical team supports.  $${\color{LimeGreen}Inq.exe}$$ can be used by either IT teams or Security teams.  This release is for Windows, Contain version coming next.
 
@@ -18,20 +12,16 @@ $${\color{LimeGreen}Inquisitor}$$ to just look for top issues or drill deep on t
 
 ⭐ Please Star/Follow/Watch us on GitHub — it motivates all of us! And it keeps you informed about changes as well. (Thank you!!)  We also want your input so please files Issues for any questions or input.
 
-<img src="https://github.com/Senserva-LLC/Senserva-Inquisitor/blob/main/screen1.png" width="150" height="150"/>
-
 > [!IMPORTANT]
 > **This is Beta 1, it will return great data, but it may not always be accurate.  We need feedback. Please create Issues for all requests. Thank you - the Senserva Team. **
 
-# ⚡️ $${\color{LimeGreen}Inquisitor}$$ Setup Free Install
+# ⚡️ $${\color{LimeGreen}Inquisitor}$$ No Installation Needed, Just Run It
 
-The best thing for a $${\color{Orange}Quick Start}$$ to do to get started is download $${\color{LimeGreen}Inq.exe}$$ with a double click and run it or clone this project. $${\color{LimeGreen}Inq.exe}$$ has a digital signature so your AV should be OK with it. If not please let us know right away.
+Download $${\color{LimeGreen}Inq.exe}$$ to get started, with a double click or a clone. $${\color{LimeGreen}Inq.exe}$$ has a digital signature so your AV should be OK with it. If not please let us know right away.
 
-You do not have to register, log in or do anything other than review, agree to and follow our [EULA](https://github.com/Senserva-LLC/Senserva-Inquisitor/blob/main/EULA.html).
+You do not have to register, log in or do anything other than review, agree to and follow our [EULA](https://github.com/Senserva-LLC/Senserva-Inquisitor/blob/main/EULA.html). Delete the installation directory and $${\color{LimeGreen}Inq.exe}$$ gone, it only uses the installation directory.
 
-By default $${\color{LimeGreen}Inq.exe}$$ trys various logins automaticly to find the best one for you. Or you can select your login mode with a parameter.
- 
-The Senserva $${\color{LimeGreen}Inquisitor}$$ (aka $${\color{LimeGreen}Inq.exe}$$) as many options and ways to work with, but things can come as you learn more about $${\color{LimeGreen}Inq.exe}$$. $${\color{LimeGreen}Inq.exe}$$ installs itself, just run it and the first time it will create the database and browser files it needs in the directory you are running in.  That's it, $${\color{LimeGreen}Inq.exe}$$ will figure things on its own from there.
+The Senserva $${\color{LimeGreen}Inquisitor}$$ (aka $${\color{LimeGreen}Inq.exe}$$) as many options and ways to work with, but things can come as you learn more about $${\color{LimeGreen}Inq.exe}$$. $${\color{LimeGreen}Inq.exe}$$ installs itself, just run it and the first time it will create the database and browser files it needs in the directory you are running in.  That's it, $${\color{LimeGreen}Inq.exe}$$ will figure things on its own from there. By default $${\color{LimeGreen}Inq.exe}$$ trys various logins automaticly to find the best one for you. Or you can select your login mode with a parameter.
 
 > [!TIP]
 > Start with the quick start and take the defaults.  Let $${\color{LimeGreen}Inq.exe}$$ do the initial heavy lifting. Then after a few usages start looking deep into the data. The $${\color{LimeGreen}Inq.exe}$$ data is tagged with levels such as High Risk, or just Informational. You can filter the data in the UI to quickly learn your state.  You can run with any user rights to see what data you get back, but Security Reader or Global Reader work best.
