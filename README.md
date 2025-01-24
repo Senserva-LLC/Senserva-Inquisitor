@@ -17,7 +17,7 @@ $${\color{LimeGreen}Inquisitor}$$ to just look for top issues or drill deep on t
 
 # ⚡️ $${\color{LimeGreen}Inquisitor}$$ No Installation Needed, Just Run It
 
-Download $${\color{LimeGreen}Inq.exe}$$ to get started, with a double click or a clone. $${\color{LimeGreen}Inq.exe}$$ has a digital signature so your AV should be OK with it. If not please let us know right away.
+Download $${\color{LimeGreen}Inq.exe}$$ to get started, with a double click or a clone, and enter inq.exe . $${\color{LimeGreen}Inq.exe}$$ has a digital signature so your AV should be OK with it. If not please let us know right away.  
 
 You do not have to register, log in or do anything other than review, agree to and follow our [EULA](https://github.com/Senserva-LLC/Senserva-Inquisitor/blob/main/EULA.html). Delete the installation directory and $${\color{LimeGreen}Inq.exe}$$ gone, it only uses the installation directory.
 
