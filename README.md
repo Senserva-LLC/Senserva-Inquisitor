@@ -7,7 +7,8 @@
 > [!WARNING]
 > *** Please NOTE this is not yet ready to download, it will be in the next 24 hours or so ***
 
-![Clip](https://github.com/user-attachments/assets/4c007fb1-016e-46fb-add9-1c2d6ae2cc4c)
+![Clip3](https://github.com/user-attachments/assets/5dcfcdc0-a276-46c5-8357-1f9e34aff946)
+
 
 🚧 Work in Progress (WIP)
 
