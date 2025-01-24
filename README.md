@@ -7,9 +7,7 @@
 > [!WARNING]
 > *** Please NOTE this is not yet ready to download, it will be in the next 24 hours or so ***
 
-
-[video](https://github.com/user-attachments/assets/2728a823-ee68-4589-8b0a-a1b5097bb226)
-
+![Clip](https://github.com/user-attachments/assets/4c007fb1-016e-46fb-add9-1c2d6ae2cc4c)
 
 🚧 Work in Progress (WIP)
 
@@ -19,7 +17,7 @@ $${\color{LimeGreen}Inquisitor}$$ to just look for top issues or drill deep on t
 
 ⭐ Please Star/Follow/Watch us on GitHub — it motivates all of us! And it keeps you informed about changes as well. (Thank you!!)  We also want your input so please files Issues for any questions or input.
 
-![Startup page](https://github.com/Senserva-LLC/Senserva-Inquisitor/blob/main/screen1.png)
+<img src="https://github.com/Senserva-LLC/Senserva-Inquisitor/blob/main/screen1.png" width="150" height="150"/>
 
 > [!IMPORTANT]
 > **This is Beta 1, it will return great data, but it may not always be accurate.  We need feedback. Please create Issues for all requests. Thank you - the Senserva Team. **
