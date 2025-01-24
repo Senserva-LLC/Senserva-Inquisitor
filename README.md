@@ -40,6 +40,10 @@ The Senserva $${\color{LimeGreen}Inquisitor}$$ (aka $${\color{LimeGreen}Inq.exe}
 * Trends stored in the data. $${\color{LimeGreen}Inquisitor}$$ data is deduped and contains a history.  So, it does not grow too large, but at the same time you can observe changes over time.
 * Source code available
 
+# Commandline Parameters
+
+![image](https://github.com/user-attachments/assets/4c6265e9-2d33-4f7b-8358-d04a9e7e9595)
+
 # 🌟 $${\color{LimeGreen}Inquisitor}$$ What We Manage
 
 * Extensive Audit and Monitoring
