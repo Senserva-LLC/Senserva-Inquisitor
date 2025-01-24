@@ -140,10 +140,12 @@ graph TD;
     Powershell-Cli-Client[Azure PowerShell Client] -->Login;
     User-Customized-Strings[Customized Strings] --> CSV-Importer[CSV Importer];
     CSV-Importer --> Database[(SQLite)];
-    Create-Webpages --> Exporter --> Json;
-    Create-Webpages --> Exporter --> CSV-Excel;
+    Create-Webpages --> Json;
+    Create-Webpages --> CSV-Excel;
     Create-Webpages --> Browser;
     Database[(SQLite)] --> Custom-Solutions[Custom Solutions];
+    Database[(SQLite)] --> CSV-Excel;
+    Create-Webpages --> HTML-Files;
 style Login fill:#80BC00,color:#000080,font-size:16pt
 style Customer-EntraID-Client fill:#46C2CB,color:#000080,font-size:16pt
 style Azure-Cli-Client fill:#46C2CB,color:#000080,font-size:16pt
@@ -159,12 +161,13 @@ style read-azure fill:#80BC00,color:#000080,font-size:16pt
 style User-Customized-Strings fill:#80BC00,color:#000080,font-size:16pt
 style Json fill:#000080,color:#80BC00,font-size:16pt
 style CSV-Excel fill:#000080,color:#80BC00,font-size:16pt
+style HTML-Files fill:#000080,color:#80BC00,font-size:16pt;
 style Exporter fill:#80BC00,color:#000080,font-size:16pt
 style Browser fill:#000080,color:#80BC00,font-size:16pt
 linkStyle default stroke:#80BC00
 ```
 
-
+By default CSV files create are Audit.csv, Nodes.csv, Edges.csv, ConditionalAccessCounts.csv, and SigninCounts.csv. Users can create their own custom CSV files via the html file based user interface.  Html files include
 
 # $${\color{LimeGreen}Inquisitor}$$ Database
 
