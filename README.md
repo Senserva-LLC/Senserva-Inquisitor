@@ -9,9 +9,9 @@ This is **Beta 1** of the $${\color{LimeGreen}Inquisitor}$$ and can be used by e
 >  Mark Shavlik here, $${\color{LimeGreen}The} {\color{LimeGreen}Senserva} {\color{LimeGreen}Inquisitor}$$ is designed to be an advanced and widely used opensource and free security and IT auditor and manager with remediation for physical, virtual and Cloud systems. Its goal is to be usable by an level of user, from IT or Security.
 > Its first installment is focused on Azure Entra ID. I am creating $${\color{LimeGreen}Inquisitor}$$ with the goal of building a team of industry leaders to work with me, right now the source code will be restricted to that group until it is ready for release.  Please let us know at Info at Senserva if you want to join with, and we have a great team going already.  I wrote my first Windows NT scanner for 3M Corporation in 1994, shortly after leaving the Windows NT Dev Team in Redmond.  I sold that to George Kurtz and Foundstone. I then wrote the patch system called HFNetChk and MBSA  (working with Microsoft), which is also the root of WSUS.  These things help secure millions of computers. I sold that company, Shavlik Technologies, to VMware and soon after started writing scanners for Microsoft Azure, including the Advanced Drift Management in Senserva's main product.
 
-![Clip6](https://github.com/user-attachments/assets/bae008ae-8830-41ab-b739-c61bd454b5c5)
-
 Use $${\color{LimeGreen}Inquisitor}$$ to just look for top issues or drill deep on the state of each Entra ID you manage, the data and interface support both. You can also easily edit the content of the  $${\color{LimeGreen}Inq.exe}$$ user interface or create your own.  We support Microsoft Excel, Json and relational databases. There can be a lot of data if you are running in "Info" mode.  The $${\color{LimeGreen}Inq.exe}$$ scanner is a commandline and can be used stand-alone.   $${\color{LimeGreen}Inq.exe}$$ also provides an extensive set of web page based information for easier review, or you can create your own UI.
+
+![Clip6](https://github.com/user-attachments/assets/bae008ae-8830-41ab-b739-c61bd454b5c5)
 
 * Use Cases
   * Quick security checks, just look for high level issues. 
@@ -27,7 +27,7 @@ Use $${\color{LimeGreen}Inquisitor}$$ to just look for top issues or drill deep 
 
 # ⚡️ $${\color{LimeGreen}Inquisitor}$$ No Installation Needed, Just Run It
 
-Download $${\color{LimeGreen}Inq.exe}$$ to get started, with a double click or a clone, and enter inq.exe . $${\color{LimeGreen}Inq.exe}$$ has a digital signature so your AV should be OK with it. If not please let us know right away.  
+Download $${\color{LimeGreen}Inq.exe}$$ to get started, with a double click or a clone, and enter inq.exe . $${\color{LimeGreen}Inq.exe}$$ has a digital signature so your AV should be OK with it. If not please let us know right away.  We do not currently support any zip file or release downloads. Click on the Inq.exe and find the download button or clone the repository.
 
 You do not have to register, log in or do anything other than review, agree to and follow our [EULA](https://github.com/Senserva-LLC/Senserva-Inquisitor/blob/main/EULA.html). Delete the installation directory and $${\color{LimeGreen}Inq.exe}$$ gone, it only uses the installation directory.
 
