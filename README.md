@@ -10,6 +10,13 @@ This is **Beta 1** of the $${\color{LimeGreen}Inquisitor}$$, a free product desi
 
 $${\color{LimeGreen}Inquisitor}$$ to just look for top issues or drill deep on the state of each Entra ID you manage, the data and interface support both. You can also easily edit the content of the  $${\color{LimeGreen}Inq.exe}$$ user interface or create your own.  We support Microsoft Excel, Json and relational databases. There can be a lot of data if you are running in "Info" mode.  The $${\color{LimeGreen}Inq.exe}$$ scanner is a commandline and can be used stand-alone.   $${\color{LimeGreen}Inq.exe}$$ also provides an extensive set of web page based information for easier review, or you can create your own UI.
 
+* Use Cases
+  * Quick security checks, just look for high level issues. 
+  * Recurring deep review, dig into the data to look for trends. Replaces need to call APIs or KQL by hand.
+  * Conditional Access Rules and Usage - dig deep in to CA, see what rules are used, not used, will never be used and more
+  * Replace existing scripts and grab data from the Inquisitor SQL database or generated CSV files
+  * Inquisitor can be run over and over, it only records changes so it is very efficent
+
 ⭐ Please Star/Follow/Watch us on GitHub — it motivates all of us! And it keeps you informed about changes as well. (Thank you!!)  We also want your input so please files Issues for any questions or input.
 
 > [!IMPORTANT]
