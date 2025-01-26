@@ -5,11 +5,10 @@
 # $${\color{LimeGreen}The} {\color{LimeGreen}Senserva} {\color{LimeGreen}Inquisitor}$$
 This is **Beta 1** of the $${\color{LimeGreen}Inquisitor}$$ and can be used by either IT teams or Security teams to do quick or depth security reviews.  This release is for Windows, Linux Container version coming in a not too distant release.
 
-> [!IMPORTANT]
->  Mark Shavlik, CEO of Senserva, here, $${\color{LimeGreen}The} {\color{LimeGreen}Senserva} {\color{LimeGreen}Inquisitor}$$ is designed to be an advanced and widely used opensource and free security and IT auditor and manager with remediation for physical, virtual and Cloud systems. Its goal is to be usable by an level of user, from IT or Security.
-> Its first installment is focused on Azure Entra ID. I am creating $${\color{LimeGreen}Inquisitor}$$ with the goal of building a team of industry leaders to work with me, right now the source code will be restricted to that group until it is ready for release.  Please let us know at Info at Senserva if you want to join with, and we have a great team going already.  I wrote my first Windows NT scanner for 3M Corporation in 1994, shortly after leaving the Windows NT Dev Team in Redmond.  I sold that to George Kurtz and Foundstone. I then wrote the patch system called HFNetChk and MBSA  (working with Microsoft), which is also the root of WSUS.  These things help secure millions of computers. I sold that company, Shavlik Technologies, to VMware and soon after started writing scanners for Microsoft Azure, including the Advanced Drift Management in Senserva's main product.
+Use $${\color{LimeGreen}Inquisitor}$$ to just look for top issues or drill deep on the state of each Entra ID you manage, the data and interface support both. You can also easily edit the content of the  $${\color{LimeGreen}Inq.exe}$$ user interface or create your own.  We support Microsoft Excel, Json and relational databases. There can be a lot of data if you are running in "Info" mode.  The $${\color{LimeGreen}Inq.exe}$$ scanner is a command line tool and can be used stand-alone, it also builds a local web page  you can interact with after a scan.  $${\color{LimeGreen}Inq.exe}$$ also provides an extensive set of web page based information for easier review, or you can create your own UI.
 
-Use $${\color{LimeGreen}Inquisitor}$$ to just look for top issues or drill deep on the state of each Entra ID you manage, the data and interface support both. You can also easily edit the content of the  $${\color{LimeGreen}Inq.exe}$$ user interface or create your own.  We support Microsoft Excel, Json and relational databases. There can be a lot of data if you are running in "Info" mode.  The $${\color{LimeGreen}Inq.exe}$$ scanner is a commandline and can be used stand-alone.   $${\color{LimeGreen}Inq.exe}$$ also provides an extensive set of web page based information for easier review, or you can create your own UI.
+> [!IMPORTANT]
+>  Mark Shavlik, CEO of Senserva, here, $${\color{LimeGreen}The} {\color{LimeGreen}Senserva} {\color{LimeGreen}Inquisitor}$$ is designed to be an advanced and widely used open source and free security and IT auditor and manager, with remediation, for physical, virtual and Cloud systems. Its goal is to be usable by an level of user, from IT or Security. Its first installment is focused on Azure Entra ID. We are creating $${\color{LimeGreen}Inquisitor}$$ with the goal of building a team of industry leaders to work with us, right now the source code will be restricted to that group until it is ready for release.  Please let us know at Info at Senserva if you want to join with, and we have a great team going already.  As background, I wrote my first Windows NT scanner for 3M Corporation in 1994, shortly after leaving the Windows NT Dev Team in Redmond.  I sold that to George Kurtz and Foundstone. I then wrote the patch system called HFNetChk and MBSA  (working with Microsoft), which is also the root of WSUS.  These things help secure millions of computers. I sold that company, Shavlik Technologies, to VMware and soon after started writing scanners for Microsoft Azure, including the Advanced Drift Management in Senserva's main product.
 
 ![Clip6](https://github.com/user-attachments/assets/bae008ae-8830-41ab-b739-c61bd454b5c5)
 
@@ -49,12 +48,8 @@ The Senserva $${\color{LimeGreen}Inquisitor}$$ (aka $${\color{LimeGreen}Inq.exe}
 * Full leveled logging to auto-rolling files support, makes it easy to understand what is going on inside Inq.exe.
 * Trends stored in the data. $${\color{LimeGreen}Inquisitor}$$ data is deduped and contains a history.  So, it does not grow too large, but at the same time you can observe changes over time.
 * Source code available
-
-# Commandline Parameters
-
-![image](https://github.com/user-attachments/assets/4c6265e9-2d33-4f7b-8358-d04a9e7e9595)
-
-# 🌟 $${\color{LimeGreen}Inquisitor}$$ What We Manage
+* 
+# 🌟 What $${\color{LimeGreen}Inquisitor}$$ Manages in this Release
 
 * Extensive Audit and Monitoring
   * Directory Logs
@@ -75,30 +70,47 @@ The Senserva $${\color{LimeGreen}Inquisitor}$$ (aka $${\color{LimeGreen}Inq.exe}
     * Service Principal Risk Detections Audit and Monitoring
     * Risky Service Principals Audit and Monitoring
     * PIM Audit and Monitoring
-
+      
 # 🛠️ How $${\color{LimeGreen}Inquisitor}$$ Works
 
 $${\color{LimeGreen}Inquisitor}$$ runs scans on demand, with scheduling and Containers coming in a future beta.
 
 ## Getting Credentials
 
-### There are Many Options for Logging into Azure
+$${\color{LimeGreen}Inquisitor}$$ uses [Web Account Manager (WAM)](https://learn.microsoft.com/en-us/entra/identity-platform/scenario-desktop-acquire-token-wam) and [The Azure Identity Library](https://learn.microsoft.com/en-us/dotnet/api/overview/azure/identity-readme?view=azure-dotnet). 
 
-$${\color{LimeGreen}Inq.exe}$$ and many options to login in to Azure.  The easiest way to go is to use the Azure CLI and $${\color{LimeGreen}Inq.exe}$$ just uses your current login, you do not need to do anything if you are already using the Azure CLI, or you can easily set it up.  The Azure PowerShell is also supported.
+### Defaults to -- auto
+If no parameters are used the default is --auto, a mode that selects the best login for you.
+
+```mermaid
+graph LR;
+try-wam-given-clientId[WAM with Defined Client ID, which defaults to the Senserva Demo Client] --> Azure-Cli-Credential[Azure Cli Credential] --> Azure-PowerShell-Credential[PowerShell Credential] --> try-azure-cli-client[WAM with Azure Cli Client ID] --> DeviceLogin-azure-client-id[Device login with Azure Cli Client ID];
+linkStyle default stroke:#80BC00
+```
+#### Commandline Parameters
+
+![image](https://github.com/user-attachments/assets/4c6265e9-2d33-4f7b-8358-d04a9e7e9595)
 
 > [!TIP]
-> If you are using Azure CLI login with that to start out.  It is easy, you have nothing to do. Over time you may want to create your own Entra ID Client to get all the rights Inq.exe is able to take advanage of.
+> If you are using Azure CLI login with that to start out.  It is easy, you have nothing to do. Over time you may want to create your own Entra ID Client to get all the rights $${\color{LimeGreen}Inquisitor}$$ is able to take advanage of.
 
 ## How $${\color{LimeGreen}Inquisitor}$$ uses User Rights.
+
 #### The Senserva Demo Entra ID Application
 
+Scope = ["UserAuthenticationMethod.Read", "IdentityRiskEvent.Read.All", "IdentityRiskyServicePrincipal.Read.All", "IdentityRiskyUser.Read.All", "AuditLog.Read.All", "Policy.Read.All", "User.Read.All", "Directory.Read.All", "Policy.Read.ConditionalAccess"];
+
 #### The Azure CLI
+
+Scope = ["AuditLog.Read.All", "Directory.AccessAsUser.All", "Group.Read.All", "User.Read.All"];
 
 The Azure Command-Line Interface (CLI) connects to Azure and execute administrative commands on Azure resources. It caches credentials and $${\color{LimeGreen}Inquisitor}$$ reads taht cache to log you in if you requst it. [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/what-is-azure-cli)
 
 #### The Az PowerShell Module
 
 Note Beta 1 is not reliable for this, at  least in our testing. It may work for you as we believe we are calling everything correctly.
+
+Scope =  ["AuditLog.Read.All", "Directory.AccessAsUser.All"];
 
 The Az PowerShell module is a set of cmdlets for managing Azure resources directly from PowerShell. [The Az PowerShell Module](https://learn.microsoft.com/en-us/powershell/azure/new-azureps-module-az?view=azps-13.0.0)
 
