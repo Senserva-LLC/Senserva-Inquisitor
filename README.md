@@ -14,21 +14,24 @@ This is **Beta 1** of the $${\color{LimeGreen}Inquisitor}$$ and can be used by e
 > # Quick  View
 > ![Clip6](https://github.com/user-attachments/assets/bae008ae-8830-41ab-b739-c61bd454b5c5)
 
-* Use Cases
+> # $${\color{LimeGreen}Inq.exe}$$ Use Cases
   * Quick security checks, just look for high level issues. 
   * Recurring deep review, dig into the data to look for trends. Replaces need to call APIs or KQL by hand.
   * Conditional Access Rules and Usage - dig deep in to CA, see what rules are used, not used, will never be used and more
   * Replace existing scripts and grab data from the Inquisitor SQL database or generated CSV files
   * Inquisitor can be run over and over, it only records changes so it is very efficent
 
-⭐ Please Star/Follow/Watch us on GitHub — it motivates all of us! And it keeps you informed about changes as well. (Thank you!!)  We also want your input so please files Issues for any questions or input.
+  > [!IMPORTANT]  
+ >⭐ Please Star/Follow/Watch us on GitHub — it motivates all of us! And it keeps you informed about changes as well. (Thank you!!)  We also want your input so please files Issues for any questions or input.
+
+
 
 # ⚡️ $${\color{LimeGreen}Inquisitor}$$ Just Run It
 
+Download $${\color{LimeGreen}Inq.exe}$$ to get started, with a double click or a clone, and enter inq.exe . $${\color{LimeGreen}Inq.exe}$$ has a digital signature so your AV should be OK with it. If not please let us know right away.  We do not currently support any Github zip file or release downloads. Click on the Inq.exe and find the download button or clone the repository.
+
 > [!TIP]
 > No Installation Needed! $${\color{LimeGreen}Inquisitor}$$ Self installs in the current directly, and  you can remove everything by deleting that directory.
-
-Download $${\color{LimeGreen}Inq.exe}$$ to get started, with a double click or a clone, and enter inq.exe . $${\color{LimeGreen}Inq.exe}$$ has a digital signature so your AV should be OK with it. If not please let us know right away.  We do not currently support any Github zip file or release downloads. Click on the Inq.exe and find the download button or clone the repository.
 
 You do not have to register, log in or do anything other than review, agree to and follow our [EULA](https://github.com/Senserva-LLC/Senserva-Inquisitor/blob/main/EULA.html). Delete the installation directory and $${\color{LimeGreen}Inq.exe}$$ gone, it only uses the installation directory. You may be asked to use the Demo Senserva Entra ID Application, if you use it to see if you like Inq.exe besure to delete it after its first usage and make your own version, then secure it so you control who has access to it.  We provide the Demo just to make it easy to do initial evaluations of Beta 1.
 
