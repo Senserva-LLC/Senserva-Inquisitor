@@ -52,13 +52,12 @@ The Senserva $${\color{LimeGreen}Inquisitor}$$ (aka $${\color{LimeGreen}Inq.exe}
 * Source code available
 * 
 # 🌟 What $${\color{LimeGreen}Inquisitor}$$ Manages in this Release
-
 * Extensive Audit and Monitoring
   * Directory Logs
   * Signin Logs
   * Conditional Access Rules and Usage
   * Users
-* Basic Audit and Monitoring
+* Basic Audit, used by Conditional Access Review
   * Service Principals
   * Devices
   * Groups
@@ -354,15 +353,6 @@ Runtimes for Senserva - early beta please contact us for assistance and informat
 * Drift Managent
 * Patch Management
     
-##❓${\color{LimeGreen}Inquisitor}$$ FAQ
-
-
-# Beta 1 Release Notes
-
-# Recommendations
-
-Senserva supports many types of login techniques, but the easiest way to get start is with the Azure Cli. [https://github.com/MicrosoftDocs/azure-docs-cli/blob/main/docs-ref-conceptual/install-azure-cli-windows.md](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) or https://learn.microsoft.com/en-us/dotnet/azure/install-azure-cli 
-
 # 📄 $${\color{LimeGreen}Inq.exe}$$ License
 Please review the SenservaLicense file before using this software. And note These run times only for END USER USE ONLY. They cannot be used within other products or be embedded in paid services without Senserva's express written permission. Senserva has an established OEM program with a scalable pricing model that works for companies of all sizes.  Please contact us for use of these, and all our works, as part of your products or to be embedded in your services. Also be sure to read the text around PROVIDED "AS IS" AND WITH ALL FAULTS AND DEFECTS WITHOUT WARRANTY OF ANY KIND.
 
