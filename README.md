@@ -74,6 +74,7 @@ The Senserva $${\color{LimeGreen}Inquisitor}$$ (aka $${\color{LimeGreen}Inq.exe}
   * More Audit and Monitoring for Service Principal Audit, Groups Audit, Roles, Risky Users, Risk Detections
   * Add
     * Secure Score Audit and Monitoring
+    * Drift Monitoring
     * Service Principal Risk Detections Audit and Monitoring
     * Risky Service Principals Audit and Monitoring
     * PIM Audit and Monitoring
