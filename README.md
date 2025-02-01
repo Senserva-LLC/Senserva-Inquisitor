@@ -25,7 +25,6 @@ This is **Beta 1** of the $${\color{LimeGreen}Inquisitor}$$ and can be used by e
   > [!IMPORTANT]  
  >⭐ Please Star/Follow/Watch us on GitHub — it motivates all of us! And it keeps you informed about changes as well. (Thank you!!)  We also want your input so please files Issues for any questions or input.
 
-https://github.com/Senserva-LLC/Senserva-Inquisitor/blob/main/quickdemo.mp4
 
 # ⚡️ $${\color{LimeGreen}Inquisitor}$$ Just Run It
 
