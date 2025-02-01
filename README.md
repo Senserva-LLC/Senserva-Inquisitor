@@ -2,26 +2,46 @@
 
 *Know your Entra ID Security State in minutes!*
 
+Welcome! This may be the biggest security tool find of 2025. Use the [Senserva](https://senserva.com) $${\color{LimeGreen}Inquisitor}$$ to just look for top issues or drill deep on the state of each Entra ID you manage, the data and interface support both. You can also easily edit the content of the $${\color{LimeGreen}Inq.exe}$$ user interface or create your own.  We support Microsoft Excel, Json and relational databases. There can be a lot of data if you are running in "Info" mode.  The $${\color{LimeGreen}Inq.exe}$$ scanner is a command line tool and can be used stand-alone, it also builds a local web page  you can interact with after a scan.  $${\color{LimeGreen}Inq.exe}$$ also provides an extensive set of web page based information for easier review, or you can create your own UI.  $${\color{LimeGreen}Inq.exe}$$ compliments our Drift management product.
+
 # $${\color{LimeGreen}The} {\color{LimeGreen}Senserva} {\color{LimeGreen}Inquisitor}$$
+This is **Beta 1** of the $${\color{LimeGreen}Inquisitor}$$ and can be used by either IT teams or Security teams to do quick or depth security reviews.  This release is for Windows, Linux Container version coming in a not too distant release.
 
-![Clip6](https://github.com/user-attachments/assets/bae008ae-8830-41ab-b739-c61bd454b5c5)
+> # Why We Created $${\color{LimeGreen}Inq.exe}$$
+> 
+>  -  Mark [Shavlik](https://en.wikipedia.org/wiki/Shavlik_Technologies), CEO of Senserva, here, $${\color{LimeGreen}The} {\color{LimeGreen}Senserva} {\color{LimeGreen}Inquisitor}$$ is designed to be a free IT auditor and manager, with remediation, for physical, virtual and Cloud systems built over time. Its goal is to be usable by any level of user, by IT or Security teams, the more advanced the user the more benefits this product provides. Its first installment is focused on Azure Entra ID. We are creating $${\color{LimeGreen}Inquisitor}$$ with the goal of building a team of industry leaders to work with us, currently the source code is restricted to that group until it is ready for broader release or it may remain private to this group.  Please let us know if you want to join the group.  As background I have written widely used security free scanners including [HFNetChk](https://www.itprotoday.com/devops/hfnetchk-microsoft-s-new-hotfix-tool) and [MBSA](https://www.microsoft.com/en-us/security/blog/2012/10/22/microsoft-free-security-tools-microsoft-baseline-security-analyzer/) (working with Microsoft). Both help secure millions of computers. $${\color{LimeGreen}Inquisitor}$$ compliments Senserva's propritary Drift automation product. Thanks! - Mark
 
-This is **Beta 1** of the $${\color{LimeGreen}Inquisitor}$$, a free product designed to make it easy to know the security state of all the Entra IDs a technical team supports.  $${\color{LimeGreen}Inq.exe}$$ can be used by either IT teams or Security teams.  This release is for Windows, Contain version coming next.
+> # Quick  View
+> ![Clip6](https://github.com/user-attachments/assets/bae008ae-8830-41ab-b739-c61bd454b5c5)
 
-$${\color{LimeGreen}Inquisitor}$$ to just look for top issues or drill deep on the state of each Entra ID you manage, the data and interface support both. You can also easily edit the content of the  $${\color{LimeGreen}Inq.exe}$$ user interface or create your own.  We support Microsoft Excel, Json and relational databases. There can be a lot of data if you are running in "Info" mode.
+> # $${\color{LimeGreen}Inq.exe}$$ Use Cases
+  * Quick security checks, just look for high level issues. 
+  * Recurring deep review, dig into the data to look for trends. Replaces need to call APIs or KQL by hand.
+  * Monitor configuration drift across a wide varity of security products (Future)
+  * Conditional Access Rules and Usage - dig deep in to CA, see what rules are used, not used, will never be used and more
+  * Replace existing scripts and grab data from the Inquisitor SQL database or generated CSV files
+  * Inquisitor can be run over and over, it only records changes so it is very efficent
 
-⭐ Please Star/Follow/Watch us on GitHub — it motivates all of us! And it keeps you informed about changes as well. (Thank you!!)  We also want your input so please files Issues for any questions or input.
+  > [!IMPORTANT]  
+ >⭐ Please Star/Follow/Watch us on GitHub — it motivates all of us! And it keeps you informed about changes as well. (Thank you!!)  We also want your input so please files Issues for any questions or input.
 
-> [!IMPORTANT]
-> **This is Beta 1, it will return great data, but it may not always be accurate.  We need feedback. Please create Issues for all requests. Thank you - the Senserva Team. **
+# ⚡️ $${\color{LimeGreen}Inquisitor}$$ Just Run It
 
-# ⚡️ $${\color{LimeGreen}Inquisitor}$$ No Installation Needed, Just Run It
+Download $${\color{LimeGreen}Inq.exe}$$ to get started, with a double click or a clone, and enter inq.exe . $${\color{LimeGreen}Inq.exe}$$ has a digital signature so your AV should be OK with it. If not please let us know right away.  We do not currently support any Github zip file or release downloads. Click on the Inq.exe and find the download button or clone the repository.
 
-Download $${\color{LimeGreen}Inq.exe}$$ to get started, with a double click or a clone, and enter inq.exe . $${\color{LimeGreen}Inq.exe}$$ has a digital signature so your AV should be OK with it. If not please let us know right away.  
+> [!TIP]
+> No Installation Needed! $${\color{LimeGreen}Inquisitor}$$ Self installs in the current directly, and  you can remove everything by deleting that directory.
 
-You do not have to register, log in or do anything other than review, agree to and follow our [EULA](https://github.com/Senserva-LLC/Senserva-Inquisitor/blob/main/EULA.html). Delete the installation directory and $${\color{LimeGreen}Inq.exe}$$ gone, it only uses the installation directory.
+You do not have to register, log in or do anything other than review, agree to and follow our [EULA](https://github.com/Senserva-LLC/Senserva-Inquisitor/blob/main/EULA.html). Delete the installation directory and $${\color{LimeGreen}Inq.exe}$$ gone, it only uses the installation directory. You may be asked to use the Demo Senserva Entra ID Application, if you use it to see if you like Inq.exe be sure to delete it after its first usage and make your own version, then secure it so you control who has access to it.  We provide the Demo just to make it easy to do initial evaluations of Beta 1.
 
-The Senserva $${\color{LimeGreen}Inquisitor}$$ (aka $${\color{LimeGreen}Inq.exe}$$) as many options and ways to work with, but things can come as you learn more about $${\color{LimeGreen}Inq.exe}$$. $${\color{LimeGreen}Inq.exe}$$ installs itself, just run it and the first time it will create the database and browser files it needs in the directory you are running in.  That's it, $${\color{LimeGreen}Inq.exe}$$ will figure things on its own from there. By default $${\color{LimeGreen}Inq.exe}$$ trys various logins automaticly to find the best one for you. Or you can select your login mode with a parameter.
+> [!IMPORTANT]  
+> The Graph API claims Global Reader or Security Reader Entra ID Rights are needed to get data. This is true, but not always it seems.  But to do a full scan enable either Global Reader or Security Reader.  We strongly suggest using PIM and setting a short window on these rights.
+>  
+> The INQ.EXE has been digitally signed by us, and co-signed by Microsoft. In spite of this, some anti-virus software may flag it for attention and quarentine the app, both at download and possibly later at runtime. Consult your AV software documentation for instructions on how to green-flag the app. TIP - When looking at the app in the Windows file manager, the correct app will have a green Senserva 'S' as a logo. A placeholder file generated by AV software will not.
+>
+> 
+
+The Senserva $${\color{LimeGreen}Inquisitor}$$ (aka $${\color{LimeGreen}Inq.exe}$$) has many options and ways to work with, but things can come as you learn more about $${\color{LimeGreen}Inq.exe}$$. $${\color{LimeGreen}Inq.exe}$$ installs itself, just run it and the first time it will create the database and browser files it needs in the directory you are running in.  That's it, $${\color{LimeGreen}Inq.exe}$$ will figure things on its own from there. By default $${\color{LimeGreen}Inq.exe}$$ trys various logins automaticly to find the best one for you. Or you can select your login mode with a parameter.
 
 > [!TIP]
 > Start with the quick start and take the defaults.  Let $${\color{LimeGreen}Inq.exe}$$ do the initial heavy lifting. Then after a few usages start looking deep into the data. The $${\color{LimeGreen}Inq.exe}$$ data is tagged with levels such as High Risk, or just Informational. You can filter the data in the UI to quickly learn your state.  You can run with any user rights to see what data you get back, but Security Reader or Global Reader work best.
@@ -39,19 +59,16 @@ The Senserva $${\color{LimeGreen}Inquisitor}$$ (aka $${\color{LimeGreen}Inq.exe}
 * Full leveled logging to auto-rolling files support, makes it easy to understand what is going on inside Inq.exe.
 * Trends stored in the data. $${\color{LimeGreen}Inquisitor}$$ data is deduped and contains a history.  So, it does not grow too large, but at the same time you can observe changes over time.
 * Source code available
-
-# Commandline Parameters
-
-![image](https://github.com/user-attachments/assets/4c6265e9-2d33-4f7b-8358-d04a9e7e9595)
-
-# 🌟 $${\color{LimeGreen}Inquisitor}$$ What We Manage
+* 
+# 🌟 What $${\color{LimeGreen}Inquisitor}$$ Manages in this Release
+Please note the data is chatty in this release, it is broad data to show what is available. We are adding a rules engine to make the data more focused on actions to take, and we are also looking for feedback in this area.  This is Beta 1, while very functional this release is also looking for feedback.
 
 * Extensive Audit and Monitoring
   * Directory Logs
   * Signin Logs
   * Conditional Access Rules and Usage
   * Users
-* Basic Audit and Monitoring
+* Basic Audit, used by Conditional Access Review
   * Service Principals
   * Devices
   * Groups
@@ -62,44 +79,57 @@ The Senserva $${\color{LimeGreen}Inquisitor}$$ (aka $${\color{LimeGreen}Inq.exe}
   * More Audit and Monitoring for Service Principal Audit, Groups Audit, Roles, Risky Users, Risk Detections
   * Add
     * Secure Score Audit and Monitoring
+    * Drift Monitoring
     * Service Principal Risk Detections Audit and Monitoring
     * Risky Service Principals Audit and Monitoring
     * PIM Audit and Monitoring
-
+      
 # 🛠️ How $${\color{LimeGreen}Inquisitor}$$ Works
 
 $${\color{LimeGreen}Inquisitor}$$ runs scans on demand, with scheduling and Containers coming in a future beta.
 
 ## Getting Credentials
 
-### There are Many Options for Logging into Azure
+$${\color{LimeGreen}Inquisitor}$$ uses [Web Account Manager (WAM)](https://learn.microsoft.com/en-us/entra/identity-platform/scenario-desktop-acquire-token-wam) and [The Azure Identity Library](https://learn.microsoft.com/en-us/dotnet/api/overview/azure/identity-readme?view=azure-dotnet). 
 
-$${\color{LimeGreen}Inq.exe}$$ and many options to login in to Azure.  The easiest way to go is to use the Azure CLI and $${\color{LimeGreen}Inq.exe}$$ just uses your current login, you do not need to do anything if you are already using the Azure CLI, or you can easily set it up.  The Azure PowerShell is also supported.
+### Defaults to -- auto
+If no parameters are used the default is --auto, a mode that selects the best login for you.
+
+```mermaid
+graph LR;
+try-wam-given-clientId[WAM with Defined Client ID, which defaults to the Senserva Demo Client] --> Azure-Cli-Credential[Azure Cli Credential] --> Azure-PowerShell-Credential[PowerShell Credential] --> try-azure-cli-client[WAM with Azure Cli Client ID] --> DeviceLogin-azure-client-id[Device login with Azure Cli Client ID];
+linkStyle default stroke:#80BC00
+```
+#### Commandline Parameters
+
+![image](https://github.com/user-attachments/assets/4c6265e9-2d33-4f7b-8358-d04a9e7e9595)
 
 > [!TIP]
-> If you are using Azure CLI login with that to start out.  It is easy, you have nothing to do. Over time you may want to create your own Entra ID Client to get all the rights Inq.exe is able to take advanage of.
+> If you are using Azure CLI login with that to start out.  It is easy, you have nothing to do. Over time you may want to create your own Entra ID Client to get all the rights $${\color{LimeGreen}Inquisitor}$$ is able to take advanage of.
 
-## How $${\color{LimeGreen}Inquisitor}$$ uses User Rights. TODO
+## How $${\color{LimeGreen}Inquisitor}$$ uses User Rights.
+
+#### The Senserva Demo Entra ID Application
+
+Scope = ["UserAuthenticationMethod.Read", "IdentityRiskEvent.Read.All", "IdentityRiskyServicePrincipal.Read.All", "IdentityRiskyUser.Read.All", "AuditLog.Read.All", "Policy.Read.All", "User.Read.All", "Directory.Read.All", "Policy.Read.ConditionalAccess"];
 
 #### The Azure CLI
 
-The best way to start working with $${\color{LimeGreen}Inq.exe}$$. If its already running for you there is nothing to do.  If its not already running its easy to install and login and let Inq.exe take it from there.
+Scope = ["AuditLog.Read.All", "Directory.AccessAsUser.All", "Group.Read.All", "User.Read.All"];
 
-The Azure Command-Line Interface (CLI) is a cross-platform command-line tool to connect to Azure and execute administrative commands on Azure resources. It allows the execution of commands through a terminal using interactive command-line prompts or a script. [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/what-is-azure-cli)
+The Azure Command-Line Interface (CLI) connects to Azure and execute administrative commands on Azure resources. It caches credentials and $${\color{LimeGreen}Inquisitor}$$ reads taht cache to log you in if you requst it. [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/what-is-azure-cli)
 
 #### The Az PowerShell Module
 
 Note Beta 1 is not reliable for this, at  least in our testing. It may work for you as we believe we are calling everything correctly.
 
+Scope =  ["AuditLog.Read.All", "Directory.AccessAsUser.All"];
+
 The Az PowerShell module is a set of cmdlets for managing Azure resources directly from PowerShell. [The Az PowerShell Module](https://learn.microsoft.com/en-us/powershell/azure/new-azureps-module-az?view=azps-13.0.0)
-
-#### The Senserva Demo EntraID Client
-
-Example, list all rights for the full product
 
 #### Customer EntraID Client
 
-based on Senserva's but make your own. This is an advanced usage and it enables the most features
+Based this Senserva's but make your own, using the rights you wish to use. Be sure to secure it so you control who runs it.  $${\color{LimeGreen}Inquisitor}$$ will only scan for the items can access so include the roles you want to include.  Note you may be surprised at what you can see.
 
 ## $${\color{LimeGreen}Inquisitor}$$ In Action
 
@@ -140,10 +170,12 @@ graph TD;
     Powershell-Cli-Client[Azure PowerShell Client] -->Login;
     User-Customized-Strings[Customized Strings] --> CSV-Importer[CSV Importer];
     CSV-Importer --> Database[(SQLite)];
-    Create-Webpages --> Exporter --> Json;
-    Create-Webpages --> Exporter --> CSV-Excel;
+    Create-Webpages --> Json;
+    Create-Webpages --> CSV-Excel;
     Create-Webpages --> Browser;
     Database[(SQLite)] --> Custom-Solutions[Custom Solutions];
+    Database[(SQLite)] --> CSV-Excel;
+    Create-Webpages --> HTML-Files;
 style Login fill:#80BC00,color:#000080,font-size:16pt
 style Customer-EntraID-Client fill:#46C2CB,color:#000080,font-size:16pt
 style Azure-Cli-Client fill:#46C2CB,color:#000080,font-size:16pt
@@ -159,12 +191,13 @@ style read-azure fill:#80BC00,color:#000080,font-size:16pt
 style User-Customized-Strings fill:#80BC00,color:#000080,font-size:16pt
 style Json fill:#000080,color:#80BC00,font-size:16pt
 style CSV-Excel fill:#000080,color:#80BC00,font-size:16pt
+style HTML-Files fill:#000080,color:#80BC00,font-size:16pt;
 style Exporter fill:#80BC00,color:#000080,font-size:16pt
 style Browser fill:#000080,color:#80BC00,font-size:16pt
 linkStyle default stroke:#80BC00
 ```
 
-
+By default CSV files create are Audit.csv (Clean, reviewed), Nodes.csv (Raw Azure data), Edges.csv (connections between Azure data), ConditionalAccessCounts.csv (usage counts), and SigninCounts.csv (extensive log reviews). Users can create their own custom CSV files via the html file based user interface. This data is the same data that is in the database, it is just presented this way so it can be viewed in things like Microsoft Excel.
 
 # $${\color{LimeGreen}Inquisitor}$$ Database
 
@@ -183,13 +216,7 @@ SQLite can also be used with PowerShell to read Inq.Uisitor data.  [SQLite and P
 
 # Easily Extend $${\color{LimeGreen}Inquisitor}$$
 
-## $${\color{LimeGreen}Inquisitor}$$ in Excel
-
-TODO
-
-## $${\color{LimeGreen}Inquisitor}$$ Json Design
-
-TODO show enough Json here to let people know what we do
+Many csv files are generated by $${\color{LimeGreen}Inquisitor}$$, as are ready to change the text of what is generated, making Excel a great way to extend $${\color{LimeGreen}Inquisitor}$$.  The same is true for Json, the $${\color{LimeGreen}Inquisitor}$$ database has a variety of json, both detailed as it comes back from Azure, or cleanuped up and enhanced json as is reported by $${\color{LimeGreen}Inquisitor}$$.
 
 ## $${\color{LimeGreen}Inquisitor}$$ Database Design
 
@@ -321,9 +348,9 @@ Senserva provides an Excel Compliant file that you can easily edit to control ou
 # $${\color{LimeGreen}Inquisitor}$$ Project Status
 Runtimes for Senserva - early beta please contact us for assistance and information. Senserva provides public contains with significant support, and then we add more for partners and customers who work more closely with us. All for free. Source could available to select partners and customers, please check with us.
 
-## ${\color{LimeGreen}Inquisitor}$$ Known Bugs
+## $${\color{LimeGreen}Inquisitor}$$ Known Bugs
 
-## 🗺 ${\color{LimeGreen}Inquisitor}$$ Roadmap
+## 🗺 $${\color{LimeGreen}Inquisitor}$$ Roadmap
 
 * Scheduling
 * Remediation
@@ -332,15 +359,6 @@ Runtimes for Senserva - early beta please contact us for assistance and informat
 * Drift Managent
 * Patch Management
     
-##❓${\color{LimeGreen}Inquisitor}$$ FAQ
-
-
-# Beta 1 Release Notes
-
-# Recommendations
-
-Senserva supports many types of login techniques, but the easiest way to get start is with the Azure Cli. [https://github.com/MicrosoftDocs/azure-docs-cli/blob/main/docs-ref-conceptual/install-azure-cli-windows.md](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) or https://learn.microsoft.com/en-us/dotnet/azure/install-azure-cli 
-
 # 📄 $${\color{LimeGreen}Inq.exe}$$ License
 Please review the SenservaLicense file before using this software. And note These run times only for END USER USE ONLY. They cannot be used within other products or be embedded in paid services without Senserva's express written permission. Senserva has an established OEM program with a scalable pricing model that works for companies of all sizes.  Please contact us for use of these, and all our works, as part of your products or to be embedded in your services. Also be sure to read the text around PROVIDED "AS IS" AND WITH ALL FAULTS AND DEFECTS WITHOUT WARRANTY OF ANY KIND.
 
