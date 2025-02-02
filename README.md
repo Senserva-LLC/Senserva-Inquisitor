@@ -2,17 +2,21 @@
 
 *Know your Entra ID Security State in minutes!*
 
-Welcome! This may be the biggest security tool find of 2025. Use the [Senserva](https://senserva.com) $${\color{LimeGreen}Inquisitor}$$ to just look for top issues or drill deep on the state of each Entra ID you manage, the data and interface support both. You can also easily edit the content of the $${\color{LimeGreen}Inq.exe}$$ user interface or create your own. $${\color{LimeGreen}Inq.exe}$$ compliments the Senserva Drift management product.
+Welcome! This may be the biggest security tool find of 2025. Use the [Senserva](https://senserva.com) $${\color{LimeGreen}Inquisitor}$$ to just look for top issues or drill deep on the state of each Entra ID you manage, the data and interface support both.  $${\color{LimeGreen}Inq.exe}$$ compliments the Senserva Drift management product.
 
 # $${\color{LimeGreen}The} {\color{LimeGreen}Senserva} {\color{LimeGreen}Inquisitor}$$
 This is **Beta 1** of the Senserva Inquisitor, built to be used by both IT and Security teams, to do quick or depth security reviews.  This release is for Windows, the Linux Container version coming in a not too distant release. Inquisitor is a command line that popups up the browser to display HTML results. Results are also output in json files and a SQLite database to provide choices.
 
+> # Quick  View
+> ![Clip6](https://github.com/user-attachments/assets/bae008ae-8830-41ab-b739-c61bd454b5c5)
+
+# ⚡️ $${\color{LimeGreen}Inquisitor}$$ Just Run It
+
+Download $${\color{LimeGreen}Inq.exe}$$ to get started, with a double click or a clone, and enter inq.exe. $${\color{LimeGreen}Inq.exe}$$ has a digital signature so your AV should be OK with it. If not please let us know right away.  We do not currently support any Github zip file or release downloads so direct downloads and clones are supported. Just click on the Inq.exe and find the download button or clone the repository.
+
 > # Why We Created $${\color{LimeGreen}Inq.exe}$$
 > 
 >  -  Mark [Shavlik](https://en.wikipedia.org/wiki/Shavlik_Technologies), CEO of Senserva, here, $${\color{LimeGreen}The} {\color{LimeGreen}Senserva} {\color{LimeGreen}Inquisitor}$$ is designed to be a free IT auditor and manager, with remediation, for physical, virtual and Cloud systems built over time. Its goal is to be usable by any level of user, by IT or Security teams, the more advanced the user the more benefits this product provides. Its first installment is focused on Azure Entra ID. We are creating $${\color{LimeGreen}Inquisitor}$$ with the goal of building a team of industry leaders to work with us, currently the source code is restricted to that group until it is ready for broader release or it may remain private to this group.  Please let us know if you want to join the group.  As background I have written widely used security free scanners including [HFNetChk](https://www.itprotoday.com/devops/hfnetchk-microsoft-s-new-hotfix-tool) and [MBSA](https://www.microsoft.com/en-us/security/blog/2012/10/22/microsoft-free-security-tools-microsoft-baseline-security-analyzer/) (working with Microsoft). Both help secure millions of computers. $${\color{LimeGreen}Inquisitor}$$ compliments Senserva's propritary Drift automation product. Thanks! - Mark
-
-> # Quick  View
-> ![Clip6](https://github.com/user-attachments/assets/bae008ae-8830-41ab-b739-c61bd454b5c5)
 
 > # $${\color{LimeGreen}Inq.exe}$$ Use Cases
   * Quick security checks, just look for high level issues. 
@@ -24,10 +28,6 @@ This is **Beta 1** of the Senserva Inquisitor, built to be used by both IT and S
 
   > [!IMPORTANT]  
  >⭐ Please Star/Follow/Watch us on GitHub — it motivates all of us! And it keeps you informed about changes as well. (Thank you!!)  We also want your input so please files Issues for any questions or input.
-
-# ⚡️ $${\color{LimeGreen}Inquisitor}$$ Just Run It
-
-Download $${\color{LimeGreen}Inq.exe}$$ to get started, with a double click or a clone, and enter inq.exe . $${\color{LimeGreen}Inq.exe}$$ has a digital signature so your AV should be OK with it. If not please let us know right away.  We do not currently support any Github zip file or release downloads. Click on the Inq.exe and find the download button or clone the repository.
 
 > [!TIP]
 > No Installation Needed! $${\color{LimeGreen}Inquisitor}$$ Self installs in the current directly, and  you can remove everything by deleting that directory.
