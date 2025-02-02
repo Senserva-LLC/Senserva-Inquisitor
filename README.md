@@ -45,10 +45,10 @@ You do not have to register, log in or do anything other than review, agree to a
 * Output text can be easily customized via auto-generated CSV files that are used to display all key text.
 * Full leveled logging to auto-rolling files support, makes it easy to understand what is going on inside Inq.exe.
 * Trends stored in the data. $${\color{LimeGreen}Inquisitor}$$ data is deduped and contains a history.  So, it does not grow too large, but at the same time you can observe changes over time.
-* Source code available
-* 
+* Source code available to select partners, friends of course family.
+  
 # 🌟 What $${\color{LimeGreen}Inquisitor}$$ Manages in this Release
-Please note the data is chatty in this release, it is broad data to show what is available. We are adding a rules engine to make the data more focused on actions to take, and we are also looking for feedback in this area.  This is Beta 1, while very functional this release is also looking for feedback.
+Please note the data is a bit chatty in this release, it is broad data to show what is available. We are adding a rules engine to make the data more focused on actions to take, and we are also looking for feedback in this area.  This is Beta 1, while very functional this release is also looking for feedback.
 
 * Extensive Audit and Monitoring
   * Directory Logs
