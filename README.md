@@ -23,7 +23,8 @@ You do not have to register, log in or do anything other than review, agree to a
 >
 
 > # $${\color{LimeGreen}Inq.exe}$$ Use Cases
-  * Quick security checks, just look for high level issues. 
+  * Quick security checks, just look for high level issues.
+  * Senserva cleans the data from Microsoft Graph, and the ARM API so you do not have to. Nice clean Json.
   * Recurring deep review, dig into the data to look for trends. Replaces need to call APIs or KQL by hand.
   * Monitor configuration drift across a wide varity of security products (Future)
   * Conditional Access Rules and Usage - dig deep in to CA, see what rules are used, not used, will never be used and more
