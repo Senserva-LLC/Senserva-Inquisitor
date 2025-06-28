@@ -2,6 +2,8 @@
 
 *Know your Entra ID Security State in minutes!*
 
+Quick Note, we have a ton of feedback, so much so we took the process of line and we coming out with new, broader release.  Targeting this summer. Thanks! - Mark
+
 Welcome! This may be the biggest security tool find of 2025. Use the [Senserva](https://senserva.com) $${\color{LimeGreen}Inquisitor}$$ to just look for top issues or drill deep on the state of each Entra ID you manage, the data and interface support both.  $${\color{LimeGreen}Inq.exe}$$ compliments the Senserva Drift management product.
 
 # $${\color{LimeGreen}The} {\color{LimeGreen}Senserva} {\color{LimeGreen}Inquisitor}$$
